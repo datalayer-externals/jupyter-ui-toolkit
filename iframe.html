@@ -325,29 +325,34 @@
       })
     );
   };</script><style>html,
-	body {
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-			Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-			'Segoe UI Symbol';
-	}
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Symbol';
+    }
 
-	#root {
-		display: flex;
-		width: 100%;
-	}
+    #root {
+        display: flex;
+        width: 100%;
+    }
 
-	/* For testing reaction to JupyterLab theme */
-	:root {
-		--jp-brand-color1: var(--md-blue-700);
-		--jp-border-width: 1px;
-		--jp-border-color1: var(--md-grey-400);
-		--jp-ui-font-size1: 13px;
-		--md-grey-400: #78909C;
-		--md-blue-700: #1976D2;
-	}</style><style>#root[hidden],
+    #root>jp-tree-item,
+    #root>jp-tree-view {
+        flex: 1 1 auto;
+    }
+
+    /* For testing reaction to JupyterLab theme */
+    :root {
+        --jp-brand-color1: var(--md-blue-700);
+        --jp-border-width: 1px;
+        --jp-border-color1: var(--md-grey-400);
+        --jp-ui-font-size1: 13px;
+        --md-grey-400: #78909C;
+        --md-blue-700: #1976D2;
+    }</style><style>#root[hidden],
       #docs-root[hidden] {
         display: none !important;
       }</style></head><body><div class="sb-preparing-story sb-wrapper"><div class="sb-loader"></div></div><div class="sb-preparing-docs sb-wrapper"><div class="sb-previewBlock"><div class="sb-previewBlock_header"><div class="sb-previewBlock_icon"></div><div class="sb-previewBlock_icon"></div><div class="sb-previewBlock_icon"></div><div class="sb-previewBlock_icon"></div></div><div class="sb-previewBlock_body"><div class="sb-loader"></div></div></div><table aria-hidden="true" class="sb-argstableBlock"><thead class="sb-argstableBlock-head"><tr><th><span>Name</span></th><th><span>Description</span></th><th><span>Default</span></th><th><span>Control</span></th></tr></thead><tbody class="sb-argstableBlock-body"><tr><td><span>propertyName</span><span title="Required">*</span></td><td><div><span>This is a short description</span></div><div class="sb-argstableBlock-summary"><div><span class="sb-argstableBlock-code">summary</span></div></div></td><td><div><span class="sb-argstableBlock-code">defaultValue</span></div></td><td><button>Set string</button></td></tr><tr><td><span>propertyName</span><span>*</span></td><td><div><span>This is a short description</span></div><div class="sb-argstableBlock-summary"><div><span class="sb-argstableBlock-code">summary</span></div></div></td><td><div><span class="sb-argstableBlock-code">defaultValue</span></div></td><td><button>Set string</button></td></tr><tr><td><span>propertyName</span><span>*</span></td><td><div><span>This is a short description</span></div><div class="sb-argstableBlock-summary"><div><span class="sb-argstableBlock-code">summary</span></div></div></td><td><div><span class="sb-argstableBlock-code">defaultValue</span></div></td><td><button>Set string</button></td></tr></tbody></table></div><div class="sb-nopreview sb-wrapper"><div class="sb-nopreview_main"><h1 class="sb-nopreview_heading sb-heading">No Preview</h1><p>Sorry, but you either have no stories or none are selected somehow.</p><ul><li>Please check the Storybook config.</li><li>Try reloading the page.</li></ul><p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p></div></div><div class="sb-errordisplay sb-wrapper"><pre id="error-message" class="sb-heading"></pre><pre class="sb-errordisplay_code"><code id="error-stack"></code></pre></div><div id="root"></div><div id="docs-root"></div><script>window['CONFIG_TYPE'] = "PRODUCTION";
@@ -368,4 +373,4 @@
           
       
           
-            window['STORIES'] = [{"titlePrefix":"","directory":"./src","files":"**/*.stories.ts","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.ts)$"}];</script><script src="runtime~main.44f01c65.iframe.bundle.js"></script><script src="347.5b3dc96f.iframe.bundle.js"></script><script src="main.2dc29cce.iframe.bundle.js"></script></body></html>
+            window['STORIES'] = [{"titlePrefix":"","directory":"./src","files":"**/*.stories.mdx","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.mdx)$"},{"titlePrefix":"","directory":"./src","files":"**/*.stories.ts","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.ts)$"}];</script><script src="runtime~main.a6e70485.iframe.bundle.js"></script><script src="282.ba98094c.iframe.bundle.js"></script><script src="main.9e1cb852.iframe.bundle.js"></script></body></html>
