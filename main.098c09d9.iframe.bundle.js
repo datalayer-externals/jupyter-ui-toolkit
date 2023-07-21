@@ -112,15 +112,15 @@
       position: relative;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        /* prettier-ignore */
-        .button:${style_focus.b}::before {
+      /* prettier-ignore */
+      .button:${style_focus.b}::before {
           border-color: ${system_colors.H.Highlight};
         }
-        :host slot[name='collapsed-icon'],
-        :host([expanded]) slot[name='expanded-icon'] {
-          fill: ${system_colors.H.ButtonText};
-        }
-      `)),jpAccordionItem=accordion_item.Q.compose({baseName:"accordion-item",template:accordion_item_template.c,styles:accordionItemStyles,collapsedIcon:'\n      <svg\n        width="20"\n        height="20"\n        viewBox="0 0 16 16"\n        xmlns="http://www.w3.org/2000/svg"\n        class="expand-collapse-glyph"\n      >\n        <path\n          fill-rule="evenodd"\n          clip-rule="evenodd"\n          d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n        />\n      </svg>\n    ',expandedIcon:'\n      <svg\n        width="20"\n        height="20"\n        viewBox="0 0 16 16"\n        xmlns="http://www.w3.org/2000/svg"\n        class="expand-collapse-glyph"\n      >\n        <path\n          fill-rule="evenodd"\n          clip-rule="evenodd"\n          transform="rotate(90,8,8)"\n          d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n        />\n      </svg>\n    '}),jpAccordion=accordion.U.compose({baseName:"accordion",template:accordion_template.N,styles:accordion_styles.T});var anchored_region=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/anchored-region/anchored-region.js"),anchored_region_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/anchored-region/anchored-region.template.js"),anchored_region_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/anchored-region/anchored-region.styles.js");const jpAnchoredRegion=anchored_region.$.compose({baseName:"anchored-region",template:anchored_region_template.O,styles:anchored_region_styles.Y});var avatar=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/avatar/index.js"),avatar_avatar=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/avatar/avatar.js"),avatar_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/avatar/avatar.template.js"),badge=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/badge/badge.js");const avatarStyles=(context,definition)=>css.i`
+      :host slot[name='collapsed-icon'],
+      :host([expanded]) slot[name='expanded-icon'] {
+        fill: ${system_colors.H.ButtonText};
+      }
+    `)),jpAccordionItem=accordion_item.Q.compose({baseName:"accordion-item",template:accordion_item_template.c,styles:accordionItemStyles,collapsedIcon:'\n      <svg\n        width="20"\n        height="20"\n        viewBox="0 0 16 16"\n        xmlns="http://www.w3.org/2000/svg"\n        class="expand-collapse-glyph"\n      >\n        <path\n          fill-rule="evenodd"\n          clip-rule="evenodd"\n          d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n        />\n      </svg>\n    ',expandedIcon:'\n      <svg\n        width="20"\n        height="20"\n        viewBox="0 0 16 16"\n        xmlns="http://www.w3.org/2000/svg"\n        class="expand-collapse-glyph"\n      >\n        <path\n          fill-rule="evenodd"\n          clip-rule="evenodd"\n          transform="rotate(90,8,8)"\n          d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n        />\n      </svg>\n    '}),jpAccordion=accordion.U.compose({baseName:"accordion",template:accordion_template.N,styles:accordion_styles.T});var anchored_region=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/anchored-region/anchored-region.js"),anchored_region_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/anchored-region/anchored-region.template.js"),anchored_region_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/anchored-region/anchored-region.styles.js");const jpAnchoredRegion=anchored_region.$.compose({baseName:"anchored-region",template:anchored_region_template.O,styles:anchored_region_styles.Y});var avatar=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/avatar/index.js"),avatar_avatar=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/avatar/avatar.js"),avatar_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/avatar/avatar.template.js"),badge=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/badge/badge.js");const avatarStyles=(context,definition)=>css.i`
     ${(0,display.j)("flex")} :host {
       position: relative;
       height: var(--avatar-size, var(--avatar-size-default));
@@ -310,72 +310,72 @@
     border-color: ${esm_design_tokens.ak};
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      .root,
-      :host([appearance='filled']) .root {
-        forced-color-adjust: none;
-        background: ${system_colors.H.Field};
-        border-color: ${system_colors.H.FieldText};
-      }
-      :host(:hover:not([disabled])) .root,
-      :host([appearance='filled']:hover:not([disabled])) .root,
-      :host([appearance='filled']:hover) .root {
-        background: ${system_colors.H.Field};
-        border-color: ${system_colors.H.Highlight};
-      }
-      .start,
-      .end {
-        fill: currentcolor;
-      }
-      :host([disabled]) {
-        opacity: 1;
-      }
-      :host([disabled]) .root,
-      :host([appearance='filled']:hover[disabled]) .root {
-        border-color: ${system_colors.H.GrayText};
-        background: ${system_colors.H.Field};
-      }
-      :host(:focus-within:enabled) .root {
-        border-color: ${system_colors.H.Highlight};
-        box-shadow: 0 0 0 calc((${esm_design_tokens.vx} - ${esm_design_tokens.H}) * 1px)
-          ${system_colors.H.Highlight};
-      }
-      input::placeholder {
-        color: ${system_colors.H.GrayText};
-      }
-    `)),badgeStyles=(context,definition)=>css.i`
-    ${(0,display.j)("inline-block")} :host {
-      box-sizing: border-box;
-      font-family: ${design_tokens.SV};
-      font-size: ${design_tokens.sN};
-      line-height: ${design_tokens.A_};
+    .root,
+    :host([appearance='filled']) .root {
+      forced-color-adjust: none;
+      background: ${system_colors.H.Field};
+      border-color: ${system_colors.H.FieldText};
     }
+    :host(:hover:not([disabled])) .root,
+    :host([appearance='filled']:hover:not([disabled])) .root,
+    :host([appearance='filled']:hover) .root {
+      background: ${system_colors.H.Field};
+      border-color: ${system_colors.H.Highlight};
+    }
+    .start,
+    .end {
+      fill: currentcolor;
+    }
+    :host([disabled]) {
+      opacity: 1;
+    }
+    :host([disabled]) .root,
+    :host([appearance='filled']:hover[disabled]) .root {
+      border-color: ${system_colors.H.GrayText};
+      background: ${system_colors.H.Field};
+    }
+    :host(:focus-within:enabled) .root {
+      border-color: ${system_colors.H.Highlight};
+      box-shadow: 0 0 0 calc((${esm_design_tokens.vx} - ${esm_design_tokens.H}) * 1px)
+        ${system_colors.H.Highlight};
+    }
+    input::placeholder {
+      color: ${system_colors.H.GrayText};
+    }
+  `)),badgeStyles=(context,definition)=>css.i`
+  ${(0,display.j)("inline-block")} :host {
+    box-sizing: border-box;
+    font-family: ${design_tokens.SV};
+    font-size: ${design_tokens.sN};
+    line-height: ${design_tokens.A_};
+  }
 
-    .control {
-      border-radius: calc(${design_tokens.UW} * 1px);
-      padding: calc(((${design_tokens._5} * 0.5) - ${design_tokens.H}) * 1px)
-        calc((${design_tokens._5} - ${design_tokens.H}) * 1px);
-      color: ${design_tokens.hY};
-      font-weight: 600;
-      border: calc(${design_tokens.H} * 1px) solid transparent;
-      background-color: ${design_tokens.wF};
-    }
+  .control {
+    border-radius: calc(${design_tokens.UW} * 1px);
+    padding: calc(((${design_tokens._5} * 0.5) - ${design_tokens.H}) * 1px)
+      calc((${design_tokens._5} - ${design_tokens.H}) * 1px);
+    color: ${design_tokens.hY};
+    font-weight: 600;
+    border: calc(${design_tokens.H} * 1px) solid transparent;
+    background-color: ${design_tokens.wF};
+  }
 
-    .control[style] {
-      font-weight: 400;
-    }
+  .control[style] {
+    font-weight: 400;
+  }
 
-    :host([circular]) .control {
-      border-radius: 100px;
-      padding: 0 calc(${design_tokens._5} * 1px);
-      /* Need to work with Brian on width and height here */
-      height: calc((${heightNumber} - (${design_tokens._5} * 3)) * 1px);
-      min-width: calc((${heightNumber} - (${design_tokens._5} * 3)) * 1px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-sizing: border-box;
-    }
-  `,jpBadge=badge.C.compose({baseName:"badge",template:badge_template.Z,styles:badgeStyles});var breadcrumb=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb/breadcrumb.js"),breadcrumb_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb/breadcrumb.template.js"),breadcrumb_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/breadcrumb/breadcrumb.styles.js");const jpBreadcrumb=breadcrumb.a.compose({baseName:"breadcrumb",template:breadcrumb_template.D,styles:breadcrumb_styles.S});var breadcrumb_item=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb-item/breadcrumb-item.js"),breadcrumb_item_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb-item/breadcrumb-item.template.js");const breadcrumbItemStyles=(context,definition)=>css.i`
+  :host([circular]) .control {
+    border-radius: 100px;
+    padding: 0 calc(${design_tokens._5} * 1px);
+    /* Need to work with Brian on width and height here */
+    height: calc((${heightNumber} - (${design_tokens._5} * 3)) * 1px);
+    min-width: calc((${heightNumber} - (${design_tokens._5} * 3)) * 1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+`,jpBadge=badge.C.compose({baseName:"badge",template:badge_template.Z,styles:badgeStyles});var breadcrumb=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb/breadcrumb.js"),breadcrumb_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb/breadcrumb.template.js"),breadcrumb_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/breadcrumb/breadcrumb.styles.js");const jpBreadcrumb=breadcrumb.a.compose({baseName:"breadcrumb",template:breadcrumb_template.D,styles:breadcrumb_styles.S});var breadcrumb_item=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb-item/breadcrumb-item.js"),breadcrumb_item_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/breadcrumb-item/breadcrumb-item.template.js");const breadcrumbItemStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-flex")} :host {
         background: transparent;
         box-sizing: border-box;
@@ -475,15 +475,15 @@
         margin-inline-start: 6px;
     }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        .control:hover .content::before,
+      .control:hover .content::before,
                 .control:${style_focus.b} .content::before {
-          background: ${system_colors.H.LinkText};
-        }
-        .start,
-        .end {
-          fill: ${system_colors.H.ButtonText};
-        }
-      `)),jpBreadcrumbItem=breadcrumb_item.g.compose({baseName:"breadcrumb-item",template:breadcrumb_item_template.Y,styles:breadcrumbItemStyles,separator:"/",shadowOptions:{delegatesFocus:!0}});var tslib_es6=__webpack_require__("../../node_modules/tslib/tslib.es6.mjs"),attributes=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/components/attributes.js"),button_button=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/button/button.js"),button_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/button/button.template.js"),property_stylesheet_behavior=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/utilities/property-stylesheet-behavior.js");function appearanceBehavior(value,styles){return new property_stylesheet_behavior.w("appearance",value,styles)}const BaseButtonStyles=css.i`
+        background: ${system_colors.H.LinkText};
+      }
+      .start,
+      .end {
+        fill: ${system_colors.H.ButtonText};
+      }
+    `)),jpBreadcrumbItem=breadcrumb_item.g.compose({baseName:"breadcrumb-item",template:breadcrumb_item_template.Y,styles:breadcrumbItemStyles,separator:"/",shadowOptions:{delegatesFocus:!0}});var tslib_es6=__webpack_require__("../../node_modules/tslib/tslib.es6.mjs"),attributes=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/components/attributes.js"),button_button=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/button/button.js"),button_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/button/button.template.js"),property_stylesheet_behavior=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/utilities/property-stylesheet-behavior.js");function appearanceBehavior(value,styles){return new property_stylesheet_behavior.w("appearance",value,styles)}const BaseButtonStyles=css.i`
   ${(0,display.j)("inline-flex")} :host {
     font-family: ${design_tokens.SV};
     outline: none;
@@ -572,46 +572,46 @@
     margin-inline-start: 11px;
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      :host .control {
-        background-color: ${system_colors.H.ButtonFace};
-        border-color: ${system_colors.H.ButtonText};
-        color: ${system_colors.H.ButtonText};
-        fill: currentColor;
-      }
+    :host .control {
+      background-color: ${system_colors.H.ButtonFace};
+      border-color: ${system_colors.H.ButtonText};
+      color: ${system_colors.H.ButtonText};
+      fill: currentColor;
+    }
 
-      :host(:hover) .control {
-        forced-color-adjust: none;
-        background-color: ${system_colors.H.Highlight};
-        color: ${system_colors.H.HighlightText};
-      }
+    :host(:hover) .control {
+      forced-color-adjust: none;
+      background-color: ${system_colors.H.Highlight};
+      color: ${system_colors.H.HighlightText};
+    }
 
-      /* prettier-ignore */
-      .control:${style_focus.b} {
+    /* prettier-ignore */
+    .control:${style_focus.b} {
         forced-color-adjust: none;
         background-color: ${system_colors.H.Highlight};
         outline-color: ${system_colors.H.ButtonText};
         color: ${system_colors.H.HighlightText};
       }
 
-      .control:hover,
-      :host([appearance='outline']) .control:hover {
-        border-color: ${system_colors.H.ButtonText};
-      }
+    .control:hover,
+    :host([appearance='outline']) .control:hover {
+      border-color: ${system_colors.H.ButtonText};
+    }
 
-      :host([href]) .control {
-        border-color: ${system_colors.H.LinkText};
-        color: ${system_colors.H.LinkText};
-      }
+    :host([href]) .control {
+      border-color: ${system_colors.H.LinkText};
+      color: ${system_colors.H.LinkText};
+    }
 
-      :host([href]) .control:hover,
+    :host([href]) .control:hover,
       :host([href]) .control:${style_focus.b} {
-        forced-color-adjust: none;
-        background: ${system_colors.H.ButtonFace};
-        outline-color: ${system_colors.H.LinkText};
-        color: ${system_colors.H.LinkText};
-        fill: currentColor;
-      }
-    `)),AccentButtonStyles=css.i`
+      forced-color-adjust: none;
+      background: ${system_colors.H.ButtonFace};
+      outline-color: ${system_colors.H.LinkText};
+      color: ${system_colors.H.LinkText};
+      fill: currentColor;
+    }
+  `)),AccentButtonStyles=css.i`
   :host([appearance='accent']) {
     background: ${design_tokens.Av};
     color: ${design_tokens.w4};
@@ -631,40 +631,40 @@
     outline-color: ${design_tokens.D8};
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      :host([appearance='accent']) .control {
-        forced-color-adjust: none;
-        background: ${system_colors.H.Highlight};
-        color: ${system_colors.H.HighlightText};
-      }
+    :host([appearance='accent']) .control {
+      forced-color-adjust: none;
+      background: ${system_colors.H.Highlight};
+      color: ${system_colors.H.HighlightText};
+    }
 
-      :host([appearance='accent']) .control:hover,
-      :host([appearance='accent']:active) .control:active {
-        background: ${system_colors.H.HighlightText};
-        border-color: ${system_colors.H.Highlight};
-        color: ${system_colors.H.Highlight};
-      }
+    :host([appearance='accent']) .control:hover,
+    :host([appearance='accent']:active) .control:active {
+      background: ${system_colors.H.HighlightText};
+      border-color: ${system_colors.H.Highlight};
+      color: ${system_colors.H.Highlight};
+    }
 
-      :host([appearance="accent"]) .control:${style_focus.b} {
-        outline-color: ${system_colors.H.Highlight};
-      }
+    :host([appearance="accent"]) .control:${style_focus.b} {
+      outline-color: ${system_colors.H.Highlight};
+    }
 
-      :host([appearance='accent'][href]) .control {
-        background: ${system_colors.H.LinkText};
-        color: ${system_colors.H.HighlightText};
-      }
+    :host([appearance='accent'][href]) .control {
+      background: ${system_colors.H.LinkText};
+      color: ${system_colors.H.HighlightText};
+    }
 
-      :host([appearance='accent'][href]) .control:hover {
-        background: ${system_colors.H.ButtonFace};
-        border-color: ${system_colors.H.LinkText};
-        box-shadow: none;
-        color: ${system_colors.H.LinkText};
-        fill: currentColor;
-      }
+    :host([appearance='accent'][href]) .control:hover {
+      background: ${system_colors.H.ButtonFace};
+      border-color: ${system_colors.H.LinkText};
+      box-shadow: none;
+      color: ${system_colors.H.LinkText};
+      fill: currentColor;
+    }
 
-      :host([appearance="accent"][href]) .control:${style_focus.b} {
-        outline-color: ${system_colors.H.HighlightText};
-      }
-    `)),ErrorButtonStyles=css.i`
+    :host([appearance="accent"][href]) .control:${style_focus.b} {
+      outline-color: ${system_colors.H.HighlightText};
+    }
+  `)),ErrorButtonStyles=css.i`
   :host([appearance='error']) {
     background: ${design_tokens.a6};
     color: ${design_tokens.w4};
@@ -684,40 +684,40 @@
     outline-color: ${design_tokens.mH};
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      :host([appearance='error']) .control {
-        forced-color-adjust: none;
-        background: ${system_colors.H.Highlight};
-        color: ${system_colors.H.HighlightText};
-      }
+    :host([appearance='error']) .control {
+      forced-color-adjust: none;
+      background: ${system_colors.H.Highlight};
+      color: ${system_colors.H.HighlightText};
+    }
 
-      :host([appearance='error']) .control:hover,
-      :host([appearance='error']:active) .control:active {
-        background: ${system_colors.H.HighlightText};
-        border-color: ${system_colors.H.Highlight};
-        color: ${system_colors.H.Highlight};
-      }
+    :host([appearance='error']) .control:hover,
+    :host([appearance='error']:active) .control:active {
+      background: ${system_colors.H.HighlightText};
+      border-color: ${system_colors.H.Highlight};
+      color: ${system_colors.H.Highlight};
+    }
 
-      :host([appearance="error"]) .control:${style_focus.b} {
-        outline-color: ${system_colors.H.Highlight};
-      }
+    :host([appearance="error"]) .control:${style_focus.b} {
+      outline-color: ${system_colors.H.Highlight};
+    }
 
-      :host([appearance='error'][href]) .control {
-        background: ${system_colors.H.LinkText};
-        color: ${system_colors.H.HighlightText};
-      }
+    :host([appearance='error'][href]) .control {
+      background: ${system_colors.H.LinkText};
+      color: ${system_colors.H.HighlightText};
+    }
 
-      :host([appearance='error'][href]) .control:hover {
-        background: ${system_colors.H.ButtonFace};
-        border-color: ${system_colors.H.LinkText};
-        box-shadow: none;
-        color: ${system_colors.H.LinkText};
-        fill: currentColor;
-      }
+    :host([appearance='error'][href]) .control:hover {
+      background: ${system_colors.H.ButtonFace};
+      border-color: ${system_colors.H.LinkText};
+      box-shadow: none;
+      color: ${system_colors.H.LinkText};
+      fill: currentColor;
+    }
 
-      :host([appearance="error"][href]) .control:${style_focus.b} {
-        outline-color: ${system_colors.H.HighlightText};
-      }
-    `)),LightweightButtonStyles=css.i`
+    :host([appearance="error"][href]) .control:${style_focus.b} {
+      outline-color: ${system_colors.H.HighlightText};
+    }
+  `)),LightweightButtonStyles=css.i`
   :host([appearance='lightweight']) {
     background: transparent;
     color: ${design_tokens.go};
@@ -771,29 +771,29 @@
     height: calc(${design_tokens.vx} * 1px);
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      :host([appearance="lightweight"]) .control:hover,
+    :host([appearance="lightweight"]) .control:hover,
       :host([appearance="lightweight"]) .control:${style_focus.b} {
-        forced-color-adjust: none;
-        background: ${system_colors.H.ButtonFace};
-        color: ${system_colors.H.Highlight};
-      }
-      :host([appearance="lightweight"]) .control:hover .content::before,
+      forced-color-adjust: none;
+      background: ${system_colors.H.ButtonFace};
+      color: ${system_colors.H.Highlight};
+    }
+    :host([appearance="lightweight"]) .control:hover .content::before,
       :host([appearance="lightweight"]) .control:${style_focus.b} .content::before {
-        background: ${system_colors.H.Highlight};
-      }
+      background: ${system_colors.H.Highlight};
+    }
 
-      :host([appearance="lightweight"][href]) .control:hover,
+    :host([appearance="lightweight"][href]) .control:hover,
       :host([appearance="lightweight"][href]) .control:${style_focus.b} {
-        background: ${system_colors.H.ButtonFace};
-        box-shadow: none;
-        color: ${system_colors.H.LinkText};
-      }
+      background: ${system_colors.H.ButtonFace};
+      box-shadow: none;
+      color: ${system_colors.H.LinkText};
+    }
 
-      :host([appearance="lightweight"][href]) .control:hover .content::before,
+    :host([appearance="lightweight"][href]) .control:hover .content::before,
       :host([appearance="lightweight"][href]) .control:${style_focus.b} .content::before {
-        background: ${system_colors.H.LinkText};
-      }
-    `)),OutlineButtonStyles=css.i`
+      background: ${system_colors.H.LinkText};
+    }
+  `)),OutlineButtonStyles=css.i`
   :host([appearance='outline']) {
     background: transparent;
     border-color: ${design_tokens.Av};
@@ -815,28 +815,28 @@
     outline-color: ${design_tokens.D8};
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      :host([appearance='outline']) .control {
-        border-color: ${system_colors.H.ButtonText};
-      }
-      :host([appearance="outline"]) .control:${style_focus.b} {
-        forced-color-adjust: none;
-        background-color: ${system_colors.H.Highlight};
-        outline-color: ${system_colors.H.ButtonText};
-        color: ${system_colors.H.HighlightText};
-        fill: currentColor;
-      }
-      :host([appearance='outline'][href]) .control {
-        background: ${system_colors.H.ButtonFace};
-        border-color: ${system_colors.H.LinkText};
-        color: ${system_colors.H.LinkText};
-        fill: currentColor;
-      }
-      :host([appearance="outline"][href]) .control:hover,
+    :host([appearance='outline']) .control {
+      border-color: ${system_colors.H.ButtonText};
+    }
+    :host([appearance="outline"]) .control:${style_focus.b} {
+      forced-color-adjust: none;
+      background-color: ${system_colors.H.Highlight};
+      outline-color: ${system_colors.H.ButtonText};
+      color: ${system_colors.H.HighlightText};
+      fill: currentColor;
+    }
+    :host([appearance='outline'][href]) .control {
+      background: ${system_colors.H.ButtonFace};
+      border-color: ${system_colors.H.LinkText};
+      color: ${system_colors.H.LinkText};
+      fill: currentColor;
+    }
+    :host([appearance="outline"][href]) .control:hover,
       :host([appearance="outline"][href]) .control:${style_focus.b} {
-        forced-color-adjust: none;
-        outline-color: ${system_colors.H.LinkText};
-      }
-    `)),StealthButtonStyles=css.i`
+      forced-color-adjust: none;
+      outline-color: ${system_colors.H.LinkText};
+    }
+  `)),StealthButtonStyles=css.i`
   :host([appearance='stealth']) {
     background: transparent;
   }
@@ -853,45 +853,45 @@
     outline-color: ${design_tokens.D8};
   }
 `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-      :host([appearance='stealth']),
-      :host([appearance='stealth']) .control {
-        forced-color-adjust: none;
-        background: ${system_colors.H.ButtonFace};
-        border-color: transparent;
-        color: ${system_colors.H.ButtonText};
-        fill: currentColor;
-      }
+    :host([appearance='stealth']),
+    :host([appearance='stealth']) .control {
+      forced-color-adjust: none;
+      background: ${system_colors.H.ButtonFace};
+      border-color: transparent;
+      color: ${system_colors.H.ButtonText};
+      fill: currentColor;
+    }
 
-      :host([appearance='stealth']:hover) .control {
-        background: ${system_colors.H.Highlight};
-        border-color: ${system_colors.H.Highlight};
-        color: ${system_colors.H.HighlightText};
-        fill: currentColor;
-      }
+    :host([appearance='stealth']:hover) .control {
+      background: ${system_colors.H.Highlight};
+      border-color: ${system_colors.H.Highlight};
+      color: ${system_colors.H.HighlightText};
+      fill: currentColor;
+    }
 
-      :host([appearance="stealth"]:${style_focus.b}) .control {
-        outline-color: ${system_colors.H.Highlight};
-        color: ${system_colors.H.HighlightText};
-        fill: currentColor;
-      }
+    :host([appearance="stealth"]:${style_focus.b}) .control {
+      outline-color: ${system_colors.H.Highlight};
+      color: ${system_colors.H.HighlightText};
+      fill: currentColor;
+    }
 
-      :host([appearance='stealth'][href]) .control {
-        color: ${system_colors.H.LinkText};
-      }
+    :host([appearance='stealth'][href]) .control {
+      color: ${system_colors.H.LinkText};
+    }
 
-      :host([appearance="stealth"][href]:hover) .control,
+    :host([appearance="stealth"][href]:hover) .control,
       :host([appearance="stealth"][href]:${style_focus.b}) .control {
-        background: ${system_colors.H.LinkText};
-        border-color: ${system_colors.H.LinkText};
-        color: ${system_colors.H.HighlightText};
-        fill: currentColor;
-      }
+      background: ${system_colors.H.LinkText};
+      border-color: ${system_colors.H.LinkText};
+      color: ${system_colors.H.HighlightText};
+      fill: currentColor;
+    }
 
-      :host([appearance="stealth"][href]:${style_focus.b}) .control {
-        forced-color-adjust: none;
-        box-shadow: 0 0 0 1px ${system_colors.H.LinkText};
-      }
-    `));class Button extends button_button.z{connectedCallback(){super.connectedCallback(),this.appearance||(this.appearance="neutral")}defaultSlottedContentChanged(oldValue,newValue){const slottedElements=this.defaultSlottedContent.filter((x=>x.nodeType===Node.ELEMENT_NODE));1===slottedElements.length&&(slottedElements[0]instanceof SVGElement||slottedElements[0].classList.contains("fa")||slottedElements[0].classList.contains("fas"))?this.control.classList.add("icon-only"):this.control.classList.remove("icon-only")}}(0,tslib_es6.gn)([attributes.Lj],Button.prototype,"appearance",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({attribute:"minimal",mode:"boolean"})],Button.prototype,"minimal",void 0);const jpButton=Button.compose({baseName:"button",baseClass:button_button.z,template:button_template.u,styles:(context,definition)=>css.i`
+    :host([appearance="stealth"][href]:${style_focus.b}) .control {
+      forced-color-adjust: none;
+      box-shadow: 0 0 0 1px ${system_colors.H.LinkText};
+    }
+  `));class Button extends button_button.z{connectedCallback(){super.connectedCallback(),this.appearance||(this.appearance="neutral")}defaultSlottedContentChanged(oldValue,newValue){const slottedElements=this.defaultSlottedContent.filter((x=>x.nodeType===Node.ELEMENT_NODE));1===slottedElements.length&&(slottedElements[0]instanceof SVGElement||slottedElements[0].classList.contains("fa")||slottedElements[0].classList.contains("fas"))?this.control.classList.add("icon-only"):this.control.classList.remove("icon-only")}}(0,tslib_es6.gn)([attributes.Lj],Button.prototype,"appearance",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({attribute:"minimal",mode:"boolean"})],Button.prototype,"minimal",void 0);const jpButton=Button.compose({baseName:"button",baseClass:button_button.z,template:button_template.u,styles:(context,definition)=>css.i`
     :host([disabled]),
     :host([disabled]:hover),
     :host([disabled]:active) {
@@ -902,18 +902,18 @@
 
     ${BaseButtonStyles}
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host([disabled]),
-        :host([disabled]) .control,
-        :host([disabled]:hover),
-        :host([disabled]:active) {
-          forced-color-adjust: none;
-          background-color: ${system_colors.H.ButtonFace};
-          outline-color: ${system_colors.H.GrayText};
-          color: ${system_colors.H.GrayText};
-          cursor: ${disabled.H};
-          opacity: 1;
-        }
-      `),appearanceBehavior("accent",css.i`
+      :host([disabled]),
+      :host([disabled]) .control,
+      :host([disabled]:hover),
+      :host([disabled]:active) {
+        forced-color-adjust: none;
+        background-color: ${system_colors.H.ButtonFace};
+        outline-color: ${system_colors.H.GrayText};
+        color: ${system_colors.H.GrayText};
+        cursor: ${disabled.H};
+        opacity: 1;
+      }
+    `),appearanceBehavior("accent",css.i`
         :host([appearance='accent'][disabled]),
         :host([appearance='accent'][disabled]:hover),
         :host([appearance='accent'][disabled]:active) {
@@ -922,13 +922,13 @@
 
         ${AccentButtonStyles}
       `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-            :host([appearance='accent'][disabled]) .control,
-            :host([appearance='accent'][disabled]) .control:hover {
-              background: ${system_colors.H.ButtonFace};
-              border-color: ${system_colors.H.GrayText};
-              color: ${system_colors.H.GrayText};
-            }
-          `))),appearanceBehavior("error",css.i`
+          :host([appearance='accent'][disabled]) .control,
+          :host([appearance='accent'][disabled]) .control:hover {
+            background: ${system_colors.H.ButtonFace};
+            border-color: ${system_colors.H.GrayText};
+            color: ${system_colors.H.GrayText};
+          }
+        `))),appearanceBehavior("error",css.i`
         :host([appearance='error'][disabled]),
         :host([appearance='error'][disabled]:hover),
         :host([appearance='error'][disabled]:active) {
@@ -937,13 +937,13 @@
 
         ${ErrorButtonStyles}
       `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-            :host([appearance='error'][disabled]) .control,
-            :host([appearance='error'][disabled]) .control:hover {
-              background: ${system_colors.H.ButtonFace};
-              border-color: ${system_colors.H.GrayText};
-              color: ${system_colors.H.GrayText};
-            }
-          `))),appearanceBehavior("lightweight",css.i`
+          :host([appearance='error'][disabled]) .control,
+          :host([appearance='error'][disabled]) .control:hover {
+            background: ${system_colors.H.ButtonFace};
+            border-color: ${system_colors.H.GrayText};
+            color: ${system_colors.H.GrayText};
+          }
+        `))),appearanceBehavior("lightweight",css.i`
         :host([appearance='lightweight'][disabled]:hover),
         :host([appearance='lightweight'][disabled]:active) {
           background-color: transparent;
@@ -958,17 +958,17 @@
 
         ${LightweightButtonStyles}
       `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-            :host([appearance='lightweight'].disabled) .control {
-              forced-color-adjust: none;
-              color: ${system_colors.H.GrayText};
-            }
+          :host([appearance='lightweight'].disabled) .control {
+            forced-color-adjust: none;
+            color: ${system_colors.H.GrayText};
+          }
 
-            :host([appearance='lightweight'].disabled)
-              .control:hover
-              .content::before {
-              background: none;
-            }
-          `))),appearanceBehavior("outline",css.i`
+          :host([appearance='lightweight'].disabled)
+            .control:hover
+            .content::before {
+            background: none;
+          }
+        `))),appearanceBehavior("outline",css.i`
         :host([appearance='outline'][disabled]),
         :host([appearance='outline'][disabled]:hover),
         :host([appearance='outline'][disabled]:active) {
@@ -978,10 +978,10 @@
 
         ${OutlineButtonStyles}
       `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-            :host([appearance='outline'][disabled]) .control {
-              border-color: ${system_colors.H.GrayText};
-            }
-          `))),appearanceBehavior("stealth",css.i`
+          :host([appearance='outline'][disabled]) .control {
+            border-color: ${system_colors.H.GrayText};
+          }
+        `))),appearanceBehavior("stealth",css.i`
         :host([appearance='stealth'][disabled]),
         :host([appearance='stealth'][disabled]:hover),
         :host([appearance='stealth'][disabled]:active) {
@@ -990,16 +990,16 @@
 
         ${StealthButtonStyles}
       `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-            :host([appearance='stealth'][disabled]) {
-              background: ${system_colors.H.ButtonFace};
-            }
+          :host([appearance='stealth'][disabled]) {
+            background: ${system_colors.H.ButtonFace};
+          }
 
-            :host([appearance='stealth'][disabled]) .control {
-              background: ${system_colors.H.ButtonFace};
-              border-color: transparent;
-              color: ${system_colors.H.GrayText};
-            }
-          `)))),shadowOptions:{delegatesFocus:!0}});var card=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/card/card.js"),card_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/card/card.template.js"),esm_card=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/card/index.js"),card_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/card/card.styles.js");const jpCard=esm_card.Zb.compose({baseName:"card",baseClass:card.Z,template:card_template.O,styles:card_styles.F});var checkbox_checkbox=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/checkbox/checkbox.js"),checkbox_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/checkbox/checkbox.template.js");const checkboxStyles=(context,definition)=>css.i`
+          :host([appearance='stealth'][disabled]) .control {
+            background: ${system_colors.H.ButtonFace};
+            border-color: transparent;
+            color: ${system_colors.H.GrayText};
+          }
+        `)))),shadowOptions:{delegatesFocus:!0}});var card=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/card/card.js"),card_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/card/card.template.js"),esm_card=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/card/index.js"),card_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/card/card.styles.js");const jpCard=esm_card.Zb.compose({baseName:"card",baseClass:card.Z,template:card_template.O,styles:card_styles.F});var checkbox_checkbox=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/checkbox/checkbox.js"),checkbox_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/checkbox/checkbox.template.js");const checkboxStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-flex")} :host {
       align-items: center;
       outline: none;
@@ -1134,78 +1134,74 @@
       opacity: ${design_tokens.VF};
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        .control {
-          forced-color-adjust: none;
-          border-color: ${system_colors.H.FieldText};
-          background: ${system_colors.H.Field};
-        }
+      .control {
+        forced-color-adjust: none;
+        border-color: ${system_colors.H.FieldText};
+        background: ${system_colors.H.Field};
+      }
+      .checked-indicator {
+        fill: ${system_colors.H.FieldText};
+      }
+      .indeterminate-indicator {
+        background: ${system_colors.H.FieldText};
+      }
+      :host(:not([disabled])) .control:hover,
+      .control:active {
+        border-color: ${system_colors.H.Highlight};
+        background: ${system_colors.H.Field};
+      }
+      :host(:${style_focus.b}) .control {
+        outline: calc(${design_tokens.vx} * 1px) solid ${system_colors.H.FieldText};
+        outline-offset: 2px;
+      }
+      :host([aria-checked="true"]:${style_focus.b}:not([disabled])) .control {
+        outline: calc(${design_tokens.vx} * 1px) solid ${system_colors.H.FieldText};
+        outline-offset: 2px;
+      }
+      :host([aria-checked='true']) .control {
+        background: ${system_colors.H.Highlight};
+        border-color: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']:not([disabled])) .control:hover,
+      .control:active {
+        border-color: ${system_colors.H.Highlight};
+        background: ${system_colors.H.HighlightText};
+      }
+      :host([aria-checked='true']) .checked-indicator {
+        fill: ${system_colors.H.HighlightText};
+      }
+      :host([aria-checked='true']:not([disabled]))
+        .control:hover
         .checked-indicator {
-          fill: ${system_colors.H.FieldText};
-        }
+        fill: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']) .indeterminate-indicator {
+        background: ${system_colors.H.HighlightText};
+      }
+      :host([aria-checked='true']) .control:hover .indeterminate-indicator {
+        background: ${system_colors.H.Highlight};
+      }
+      :host([disabled]) {
+        opacity: 1;
+      }
+      :host([disabled]) .control {
+        forced-color-adjust: none;
+        border-color: ${system_colors.H.GrayText};
+        background: ${system_colors.H.Field};
+      }
+      :host([disabled]) .indeterminate-indicator,
+      :host([aria-checked='true'][disabled])
+        .control:hover
         .indeterminate-indicator {
-          background: ${system_colors.H.FieldText};
-        }
-        :host(:not([disabled])) .control:hover,
-        .control:active {
-          border-color: ${system_colors.H.Highlight};
-          background: ${system_colors.H.Field};
-        }
-        :host(:${style_focus.b}) .control {
-          outline: calc(${design_tokens.vx} * 1px) solid
-            ${system_colors.H.FieldText};
-          outline-offset: 2px;
-        }
-        :host([aria-checked="true"]:${style_focus.b}:not([disabled])) .control {
-          outline: calc(${design_tokens.vx} * 1px) solid
-            ${system_colors.H.FieldText};
-          outline-offset: 2px;
-        }
-        :host([aria-checked='true']) .control {
-          background: ${system_colors.H.Highlight};
-          border-color: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']:not([disabled])) .control:hover,
-        .control:active {
-          border-color: ${system_colors.H.Highlight};
-          background: ${system_colors.H.HighlightText};
-        }
-        :host([aria-checked='true']) .checked-indicator {
-          fill: ${system_colors.H.HighlightText};
-        }
-        :host([aria-checked='true']:not([disabled]))
-          .control:hover
-          .checked-indicator {
-          fill: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']) .indeterminate-indicator {
-          background: ${system_colors.H.HighlightText};
-        }
-        :host([aria-checked='true']) .control:hover .indeterminate-indicator {
-          background: ${system_colors.H.Highlight};
-        }
-        :host([disabled]) {
-          opacity: 1;
-        }
-        :host([disabled]) .control {
-          forced-color-adjust: none;
-          border-color: ${system_colors.H.GrayText};
-          background: ${system_colors.H.Field};
-        }
-        :host([disabled]) .indeterminate-indicator,
-        :host([aria-checked='true'][disabled])
-          .control:hover
-          .indeterminate-indicator {
-          forced-color-adjust: none;
-          background: ${system_colors.H.GrayText};
-        }
-        :host([disabled]) .checked-indicator,
-        :host([aria-checked='true'][disabled])
-          .control:hover
-          .checked-indicator {
-          forced-color-adjust: none;
-          fill: ${system_colors.H.GrayText};
-        }
-      `)),jpCheckbox=checkbox_checkbox.X.compose({baseName:"checkbox",template:checkbox_template.X,styles:checkboxStyles,checkedIndicator:'\n    <svg\n      part="checked-indicator"\n      class="checked-indicator"\n      viewBox="0 0 20 20"\n      xmlns="http://www.w3.org/2000/svg"\n    >\n      <path\n        fill-rule="evenodd"\n        clip-rule="evenodd"\n        d="M8.143 12.6697L15.235 4.5L16.8 5.90363L8.23812 15.7667L3.80005 11.2556L5.27591 9.7555L8.143 12.6697Z"\n      />\n    </svg>\n    ',indeterminateIndicator:'\n        <div part="indeterminate-indicator" class="indeterminate-indicator"></div>\n    '});var combobox=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/combobox/combobox.js"),combobox_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/combobox/combobox.template.js");const selectStyles=(context,definition)=>css.i`
+        forced-color-adjust: none;
+        background: ${system_colors.H.GrayText};
+      }
+      :host([disabled]) .checked-indicator,
+      :host([aria-checked='true'][disabled]) .control:hover .checked-indicator {
+        forced-color-adjust: none;
+        fill: ${system_colors.H.GrayText};
+      }
+    `)),jpCheckbox=checkbox_checkbox.X.compose({baseName:"checkbox",template:checkbox_template.X,styles:checkboxStyles,checkedIndicator:'\n    <svg\n      part="checked-indicator"\n      class="checked-indicator"\n      viewBox="0 0 20 20"\n      xmlns="http://www.w3.org/2000/svg"\n    >\n      <path\n        fill-rule="evenodd"\n        clip-rule="evenodd"\n        d="M8.143 12.6697L15.235 4.5L16.8 5.90363L8.23812 15.7667L3.80005 11.2556L5.27591 9.7555L8.143 12.6697Z"\n      />\n    </svg>\n    ',indeterminateIndicator:'\n        <div part="indeterminate-indicator" class="indeterminate-indicator"></div>\n    '});var combobox=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/combobox/combobox.js"),combobox_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/combobox/combobox.template.js");const selectStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-flex")} :host {
       --elevation: 14;
       background: ${esm_design_tokens._B};
@@ -1361,66 +1357,66 @@
       flex: 0 0 auto;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host(:not([disabled]):hover),
-        :host(:not([disabled]):active) {
-          border-color: ${system_colors.H.Highlight};
-        }
+      :host(:not([disabled]):hover),
+      :host(:not([disabled]):active) {
+        border-color: ${system_colors.H.Highlight};
+      }
 
-        :host(:not([disabled]):${style_focus.b}) {
-          background-color: ${system_colors.H.ButtonFace};
-          box-shadow: 0 0 0 calc(${esm_design_tokens.vx} * 1px)
-            ${system_colors.H.Highlight};
-          color: ${system_colors.H.ButtonText};
-          fill: currentcolor;
-          forced-color-adjust: none;
-        }
+      :host(:not([disabled]):${style_focus.b}) {
+        background-color: ${system_colors.H.ButtonFace};
+        box-shadow: 0 0 0 calc(${esm_design_tokens.vx} * 1px)
+          ${system_colors.H.Highlight};
+        color: ${system_colors.H.ButtonText};
+        fill: currentcolor;
+        forced-color-adjust: none;
+      }
 
-        :host(:not([disabled]):${style_focus.b}) .listbox {
-          background: ${system_colors.H.ButtonFace};
-        }
+      :host(:not([disabled]):${style_focus.b}) .listbox {
+        background: ${system_colors.H.ButtonFace};
+      }
 
-        :host([disabled]) {
-          border-color: ${system_colors.H.GrayText};
-          background-color: ${system_colors.H.ButtonFace};
-          color: ${system_colors.H.GrayText};
-          fill: currentcolor;
-          opacity: 1;
-          forced-color-adjust: none;
-        }
+      :host([disabled]) {
+        border-color: ${system_colors.H.GrayText};
+        background-color: ${system_colors.H.ButtonFace};
+        color: ${system_colors.H.GrayText};
+        fill: currentcolor;
+        opacity: 1;
+        forced-color-adjust: none;
+      }
 
-        :host([disabled]:hover) {
-          background: ${system_colors.H.ButtonFace};
-        }
+      :host([disabled]:hover) {
+        background: ${system_colors.H.ButtonFace};
+      }
 
-        :host([disabled]) .control {
-          color: ${system_colors.H.GrayText};
-          border-color: ${system_colors.H.GrayText};
-        }
+      :host([disabled]) .control {
+        color: ${system_colors.H.GrayText};
+        border-color: ${system_colors.H.GrayText};
+      }
 
-        :host([disabled]) .control .select-indicator {
-          fill: ${system_colors.H.GrayText};
-        }
+      :host([disabled]) .control .select-indicator {
+        fill: ${system_colors.H.GrayText};
+      }
 
-        :host(:${style_focus.b}) ::slotted([aria-selected="true"][role="option"]),
+      :host(:${style_focus.b}) ::slotted([aria-selected="true"][role="option"]),
             :host(:${style_focus.b}) ::slotted(option[aria-selected="true"]),
             :host(:${style_focus.b}) ::slotted([aria-selected="true"][role="option"]:not([disabled])) {
-          background: ${system_colors.H.Highlight};
-          border-color: ${system_colors.H.ButtonText};
-          box-shadow: 0 0 0 calc((${esm_design_tokens.vx} - ${esm_design_tokens.H}) * 1px)
-            ${system_colors.H.HighlightText};
-          color: ${system_colors.H.HighlightText};
-          fill: currentcolor;
-        }
+        background: ${system_colors.H.Highlight};
+        border-color: ${system_colors.H.ButtonText};
+        box-shadow: 0 0 0 calc((${esm_design_tokens.vx} - ${esm_design_tokens.H}) * 1px)
+          ${system_colors.H.HighlightText};
+        color: ${system_colors.H.HighlightText};
+        fill: currentcolor;
+      }
 
-        .start,
-        .end,
-        .indicator,
-        .select-indicator,
-        ::slotted(svg) {
-          color: ${system_colors.H.ButtonText};
-          fill: currentcolor;
-        }
-      `)),comboboxStyles=(context,definition)=>css.i`
+      .start,
+      .end,
+      .indicator,
+      .select-indicator,
+      ::slotted(svg) {
+        color: ${system_colors.H.ButtonText};
+        fill: currentcolor;
+      }
+    `)),comboboxStyles=(context,definition)=>css.i`
   ${selectStyles(context,definition)}
 
   :host(:empty) .listbox {
@@ -1480,20 +1476,20 @@
       outline: calc(${design_tokens.vx} * 1px) solid ${design_tokens.D8};
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host {
-          forced-color-adjust: none;
-          border-color: transparent;
-          background: ${system_colors.H.Field};
-          color: ${system_colors.H.FieldText};
-        }
+      :host {
+        forced-color-adjust: none;
+        border-color: transparent;
+        background: ${system_colors.H.Field};
+        color: ${system_colors.H.FieldText};
+      }
 
-        :host(:${style_focus.b}) {
-          border-color: ${system_colors.H.FieldText};
-          box-shadow: 0 0 0 2px inset ${system_colors.H.Field};
-        }
-      `)),jpDataGridCell=data_grid_cell.a.compose({baseName:"data-grid-cell",template:data_grid_cell_template.c,styles:dataGridCellStyles}),jpDataGridRow=data_grid_row.m.compose({baseName:"data-grid-row",template:data_grid_row_template.f,styles:data_grid_row_styles.r}),jpDataGrid=data_grid._$.compose({baseName:"data-grid",template:data_grid_template.c,styles:data_grid_styles.l});var dom=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/dom.js"),observable=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/observation/observable.js"),key_codes=__webpack_require__("../../node_modules/@microsoft/fast-web-utilities/dist/key-codes.js"),apply_mixins=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/utilities/apply-mixins.js"),start_end=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/patterns/start-end.js"),text_field=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-field/text-field.js"),foundation_element=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/foundation-element/foundation-element.js"),form_associated=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/form-associated/form-associated.js");class _DateField extends foundation_element.I{}class FormAssociatedDateField extends((0,form_associated.Um)(_DateField)){constructor(){super(...arguments),this.proxy=document.createElement("input")}}const nullableDateConverter={toView(value){if(null==value)return null;const date=new Date(value);return"Invalid Date"===date.toString()?null:`${date.getFullYear().toString().padStart(4,"0")}-${(date.getMonth()+1).toString().padStart(2,"0")}-${date.getDate().toString().padStart(2,"0")}`},fromView(value){if(null==value)return null;const date=new Date(value);return"Invalid Date"===date.toString()?null:date}};class DateField extends FormAssociatedDateField{constructor(){super(...arguments),this.step=1,this.isUserInput=!1}readOnlyChanged(){this.proxy instanceof HTMLInputElement&&(this.proxy.readOnly=this.readOnly,this.validate())}autofocusChanged(){this.proxy instanceof HTMLInputElement&&(this.proxy.autofocus=this.autofocus,this.validate())}listChanged(){this.proxy instanceof HTMLInputElement&&(this.proxy.setAttribute("list",this.list),this.validate())}maxChanged(previous,next){var _a;this.max=next<(null!==(_a=this.min)&&void 0!==_a?_a:next)?this.min:next,this.value=this.getValidValue(this.value)}minChanged(previous,next){var _a;this.min=next>(null!==(_a=this.max)&&void 0!==_a?_a:next)?this.max:next,this.value=this.getValidValue(this.value)}get valueAsNumber(){return new Date(super.value).valueOf()}set valueAsNumber(next){this.value=new Date(next).toString()}get valueAsDate(){return new Date(super.value)}set valueAsDate(next){this.value=next.toString()}valueChanged(previous,next){this.value=this.getValidValue(next),next===this.value&&(this.control&&!this.isUserInput&&(this.control.value=this.value),super.valueChanged(previous,this.value),void 0===previous||this.isUserInput||this.$emit("change"),this.isUserInput=!1)}getValidValue(value){var _a,_b;let validValue=new Date(value);return"Invalid Date"===validValue.toString()?validValue="":(validValue=validValue>(null!==(_a=this.max)&&void 0!==_a?_a:validValue)?this.max:validValue,validValue=validValue<(null!==(_b=this.min)&&void 0!==_b?_b:validValue)?this.min:validValue,validValue=`${validValue.getFullYear().toString().padStart(4,"0")}-${(validValue.getMonth()+1).toString().padStart(2,"0")}-${validValue.getDate().toString().padStart(2,"0")}`),validValue}stepUp(){const step=864e5*this.step,value=new Date(this.value);this.value=new Date("Invalid Date"!==value.toString()?value.valueOf()+step:0).toString()}stepDown(){const step=864e5*this.step,value=new Date(this.value);this.value=new Date("Invalid Date"!==value.toString()?Math.max(value.valueOf()-step,0):0).toString()}connectedCallback(){super.connectedCallback(),this.validate(),this.control.value=this.value,this.autofocus&&dom.SO.queueUpdate((()=>{this.focus()})),this.appearance||(this.appearance="outline")}handleTextInput(){this.isUserInput=!0,this.value=this.control.value}handleChange(){this.$emit("change")}handleKeyDown(e){switch(e.key){case key_codes.SB:return this.stepUp(),!1;case key_codes.iF:return this.stepDown(),!1}return!0}handleBlur(){this.control.value=this.value}}(0,tslib_es6.gn)([attributes.Lj],DateField.prototype,"appearance",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({attribute:"readonly",mode:"boolean"})],DateField.prototype,"readOnly",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({mode:"boolean"})],DateField.prototype,"autofocus",void 0),(0,tslib_es6.gn)([attributes.Lj],DateField.prototype,"list",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({converter:attributes.Id})],DateField.prototype,"step",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({converter:nullableDateConverter})],DateField.prototype,"max",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({converter:nullableDateConverter})],DateField.prototype,"min",void 0),(0,tslib_es6.gn)([observable.LO],DateField.prototype,"defaultSlottedNodes",void 0),(0,apply_mixins.e)(DateField,start_end.hW,text_field.yd);const dateFieldStyles=(context,definition)=>css.i`
-    ${BaseFieldStyles}
-  `;var template=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/templating/template.js"),slotted=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/templating/slotted.js"),ref=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/templating/ref.js"),whitespace_filter=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/utilities/whitespace-filter.js");const dateFieldTemplate=(context,definition)=>template.d`
+      :host(:${style_focus.b}) {
+        border-color: ${system_colors.H.FieldText};
+        box-shadow: 0 0 0 2px inset ${system_colors.H.Field};
+      }
+    `)),jpDataGridCell=data_grid_cell.a.compose({baseName:"data-grid-cell",template:data_grid_cell_template.c,styles:dataGridCellStyles}),jpDataGridRow=data_grid_row.m.compose({baseName:"data-grid-row",template:data_grid_row_template.f,styles:data_grid_row_styles.r}),jpDataGrid=data_grid._$.compose({baseName:"data-grid",template:data_grid_template.c,styles:data_grid_styles.l});var dom=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/dom.js"),observable=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/observation/observable.js"),key_codes=__webpack_require__("../../node_modules/@microsoft/fast-web-utilities/dist/key-codes.js"),apply_mixins=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/utilities/apply-mixins.js"),start_end=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/patterns/start-end.js"),text_field=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-field/text-field.js"),foundation_element=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/foundation-element/foundation-element.js"),form_associated=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/form-associated/form-associated.js");class _DateField extends foundation_element.I{}class FormAssociatedDateField extends((0,form_associated.Um)(_DateField)){constructor(){super(...arguments),this.proxy=document.createElement("input")}}const nullableDateConverter={toView(value){if(null==value)return null;const date=new Date(value);return"Invalid Date"===date.toString()?null:`${date.getFullYear().toString().padStart(4,"0")}-${(date.getMonth()+1).toString().padStart(2,"0")}-${date.getDate().toString().padStart(2,"0")}`},fromView(value){if(null==value)return null;const date=new Date(value);return"Invalid Date"===date.toString()?null:date}};class DateField extends FormAssociatedDateField{constructor(){super(...arguments),this.step=1,this.isUserInput=!1}readOnlyChanged(){this.proxy instanceof HTMLInputElement&&(this.proxy.readOnly=this.readOnly,this.validate())}autofocusChanged(){this.proxy instanceof HTMLInputElement&&(this.proxy.autofocus=this.autofocus,this.validate())}listChanged(){this.proxy instanceof HTMLInputElement&&(this.proxy.setAttribute("list",this.list),this.validate())}maxChanged(previous,next){var _a;this.max=next<(null!==(_a=this.min)&&void 0!==_a?_a:next)?this.min:next,this.value=this.getValidValue(this.value)}minChanged(previous,next){var _a;this.min=next>(null!==(_a=this.max)&&void 0!==_a?_a:next)?this.max:next,this.value=this.getValidValue(this.value)}get valueAsNumber(){return new Date(super.value).valueOf()}set valueAsNumber(next){this.value=new Date(next).toString()}get valueAsDate(){return new Date(super.value)}set valueAsDate(next){this.value=next.toString()}valueChanged(previous,next){this.value=this.getValidValue(next),next===this.value&&(this.control&&!this.isUserInput&&(this.control.value=this.value),super.valueChanged(previous,this.value),void 0===previous||this.isUserInput||this.$emit("change"),this.isUserInput=!1)}getValidValue(value){var _a,_b;let validValue=new Date(value);return"Invalid Date"===validValue.toString()?validValue="":(validValue=validValue>(null!==(_a=this.max)&&void 0!==_a?_a:validValue)?this.max:validValue,validValue=validValue<(null!==(_b=this.min)&&void 0!==_b?_b:validValue)?this.min:validValue,validValue=`${validValue.getFullYear().toString().padStart(4,"0")}-${(validValue.getMonth()+1).toString().padStart(2,"0")}-${validValue.getDate().toString().padStart(2,"0")}`),validValue}stepUp(){const step=864e5*this.step,value=new Date(this.value);this.value=new Date("Invalid Date"!==value.toString()?value.valueOf()+step:0).toString()}stepDown(){const step=864e5*this.step,value=new Date(this.value);this.value=new Date("Invalid Date"!==value.toString()?Math.max(value.valueOf()-step,0):0).toString()}connectedCallback(){super.connectedCallback(),this.validate(),this.control.value=this.value,this.autofocus&&dom.SO.queueUpdate((()=>{this.focus()})),this.appearance||(this.appearance="outline")}handleTextInput(){this.isUserInput=!0,this.value=this.control.value}handleChange(){this.$emit("change")}handleKeyDown(e){switch(e.key){case key_codes.SB:return this.stepUp(),!1;case key_codes.iF:return this.stepDown(),!1}return!0}handleBlur(){this.control.value=this.value}}(0,tslib_es6.gn)([attributes.Lj],DateField.prototype,"appearance",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({attribute:"readonly",mode:"boolean"})],DateField.prototype,"readOnly",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({mode:"boolean"})],DateField.prototype,"autofocus",void 0),(0,tslib_es6.gn)([attributes.Lj],DateField.prototype,"list",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({converter:attributes.Id})],DateField.prototype,"step",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({converter:nullableDateConverter})],DateField.prototype,"max",void 0),(0,tslib_es6.gn)([(0,attributes.Lj)({converter:nullableDateConverter})],DateField.prototype,"min",void 0),(0,tslib_es6.gn)([observable.LO],DateField.prototype,"defaultSlottedNodes",void 0),(0,apply_mixins.e)(DateField,start_end.hW,text_field.yd);const dateFieldStyles=(context,definition)=>css.i`
+  ${BaseFieldStyles}
+`;var template=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/templating/template.js"),slotted=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/templating/slotted.js"),ref=__webpack_require__("../../node_modules/@microsoft/fast-element/dist/esm/templating/ref.js"),whitespace_filter=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/utilities/whitespace-filter.js");const dateFieldTemplate=(context,definition)=>template.d`
   <template class="${x=>x.readOnly?"readonly":""}">
     <label
       part="label"
@@ -1802,66 +1798,66 @@
       pointer-events: none;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host {
-          border-color: transparent;
-          color: ${system_colors.H.ButtonText};
-          forced-color-adjust: none;
-        }
+      :host {
+        border-color: transparent;
+        color: ${system_colors.H.ButtonText};
+        forced-color-adjust: none;
+      }
 
-        :host(:hover) {
-          background: ${system_colors.H.Highlight};
-          color: ${system_colors.H.HighlightText};
-        }
+      :host(:hover) {
+        background: ${system_colors.H.Highlight};
+        color: ${system_colors.H.HighlightText};
+      }
 
-        :host(:hover) .start,
-        :host(:hover) .end,
-        :host(:hover)::slotted(svg),
-        :host(:active) .start,
-        :host(:active) .end,
-        :host(:active)::slotted(svg) {
-          fill: ${system_colors.H.HighlightText};
-        }
+      :host(:hover) .start,
+      :host(:hover) .end,
+      :host(:hover)::slotted(svg),
+      :host(:active) .start,
+      :host(:active) .end,
+      :host(:active)::slotted(svg) {
+        fill: ${system_colors.H.HighlightText};
+      }
 
-        :host(.expanded) {
-          background: ${system_colors.H.Highlight};
-          border-color: ${system_colors.H.Highlight};
-          color: ${system_colors.H.HighlightText};
-        }
+      :host(.expanded) {
+        background: ${system_colors.H.Highlight};
+        border-color: ${system_colors.H.Highlight};
+        color: ${system_colors.H.HighlightText};
+      }
 
-        :host(:${style_focus.b}) {
-          background: ${system_colors.H.Highlight};
-          border-color: ${system_colors.H.ButtonText};
-          box-shadow: 0 0 0 calc(${design_tokens.vx} * 1px) inset
-            ${system_colors.H.HighlightText};
-          color: ${system_colors.H.HighlightText};
-          fill: currentcolor;
-        }
+      :host(:${style_focus.b}) {
+        background: ${system_colors.H.Highlight};
+        border-color: ${system_colors.H.ButtonText};
+        box-shadow: 0 0 0 calc(${design_tokens.vx} * 1px) inset
+          ${system_colors.H.HighlightText};
+        color: ${system_colors.H.HighlightText};
+        fill: currentcolor;
+      }
 
-        :host([disabled]),
-        :host([disabled]:hover),
-        :host([disabled]:hover) .start,
-        :host([disabled]:hover) .end,
-        :host([disabled]:hover)::slotted(svg) {
-          background: ${system_colors.H.Canvas};
-          color: ${system_colors.H.GrayText};
-          fill: currentcolor;
-          opacity: 1;
-        }
+      :host([disabled]),
+      :host([disabled]:hover),
+      :host([disabled]:hover) .start,
+      :host([disabled]:hover) .end,
+      :host([disabled]:hover)::slotted(svg) {
+        background: ${system_colors.H.Canvas};
+        color: ${system_colors.H.GrayText};
+        fill: currentcolor;
+        opacity: 1;
+      }
 
-        :host .expanded-toggle,
-        :host .checkbox,
-        :host .radio {
-          border-color: ${system_colors.H.ButtonText};
-          background: ${system_colors.H.HighlightText};
-        }
+      :host .expanded-toggle,
+      :host .checkbox,
+      :host .radio {
+        border-color: ${system_colors.H.ButtonText};
+        background: ${system_colors.H.HighlightText};
+      }
 
-        :host([checked='true']) .checkbox,
-        :host([checked='true']) .radio {
-          background: ${system_colors.H.HighlightText};
-          border-color: ${system_colors.H.HighlightText};
-        }
+      :host([checked='true']) .checkbox,
+      :host([checked='true']) .radio {
+        background: ${system_colors.H.HighlightText};
+        border-color: ${system_colors.H.HighlightText};
+      }
 
-        :host(:hover) .expanded-toggle,
+      :host(:hover) .expanded-toggle,
             :host(:hover) .checkbox,
             :host(:hover) .radio,
             :host(:${style_focus.b}) .expanded-toggle,
@@ -1871,33 +1867,33 @@
             :host([checked="true"]:hover) .radio,
             :host([checked="true"]:${style_focus.b}) .checkbox,
             :host([checked="true"]:${style_focus.b}) .radio {
-          border-color: ${system_colors.H.HighlightText};
-        }
+        border-color: ${system_colors.H.HighlightText};
+      }
 
-        :host([aria-checked='true']) {
-          background: ${system_colors.H.Highlight};
-          color: ${system_colors.H.HighlightText};
-        }
+      :host([aria-checked='true']) {
+        background: ${system_colors.H.Highlight};
+        color: ${system_colors.H.HighlightText};
+      }
 
-        :host([aria-checked='true']) .checkbox-indicator,
-        :host([aria-checked='true']) ::slotted([slot='checkbox-indicator']),
-        :host([aria-checked='true']) ::slotted([slot='radio-indicator']) {
-          fill: ${system_colors.H.Highlight};
-        }
+      :host([aria-checked='true']) .checkbox-indicator,
+      :host([aria-checked='true']) ::slotted([slot='checkbox-indicator']),
+      :host([aria-checked='true']) ::slotted([slot='radio-indicator']) {
+        fill: ${system_colors.H.Highlight};
+      }
 
-        :host([aria-checked='true']) .radio-indicator {
-          background: ${system_colors.H.Highlight};
-        }
+      :host([aria-checked='true']) .radio-indicator {
+        background: ${system_colors.H.Highlight};
+      }
 
-        ::slotted([slot='end']:not(svg)) {
-          color: ${system_colors.H.ButtonText};
-        }
+      ::slotted([slot='end']:not(svg)) {
+        color: ${system_colors.H.ButtonText};
+      }
 
-        :host(:hover) ::slotted([slot="end"]:not(svg)),
+      :host(:hover) ::slotted([slot="end"]:not(svg)),
             :host(:${style_focus.b}) ::slotted([slot="end"]:not(svg)) {
-          color: ${system_colors.H.HighlightText};
-        }
-      `),new design_tokens.O8(css.i`
+        color: ${system_colors.H.HighlightText};
+      }
+    `),new design_tokens.O8(css.i`
         .expand-collapse-glyph {
           transform: rotate(0deg);
         }
@@ -1906,39 +1902,39 @@
           transform: rotate(180deg);
         }
       `)),jpMenuItem=menu_item.sN.compose({baseName:"menu-item",template:menu_item_template.Z,styles:menuItemStyles,checkboxIndicator:'\n      <svg\n        part="checkbox-indicator"\n        class="checkbox-indicator"\n        viewBox="0 0 20 20"\n        xmlns="http://www.w3.org/2000/svg"\n      >\n        <path\n          fill-rule="evenodd"\n          clip-rule="evenodd"\n          d="M8.143 12.6697L15.235 4.5L16.8 5.90363L8.23812 15.7667L3.80005 11.2556L5.27591 9.7555L8.143 12.6697Z"\n        />\n      </svg>\n    ',expandCollapseGlyph:'\n      <svg\n        viewBox="0 0 16 16"\n        xmlns="http://www.w3.org/2000/svg"\n        class="expand-collapse-glyph"\n        part="expand-collapse-glyph"\n      >\n        <path\n          d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n        />\n      </svg>\n    ',radioIndicator:'\n      <span part="radio-indicator" class="radio-indicator"></span>\n    '});var number_field=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/number-field/number-field.js"),number_field_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/number-field/number-field.template.js"),esm_number_field=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/number-field/index.js");const numberFieldStyles=(context,definition)=>css.i`
-    ${BaseFieldStyles}
+  ${BaseFieldStyles}
 
-    .controls {
-      opacity: 0;
-    }
+  .controls {
+    opacity: 0;
+  }
 
-    .step-up-glyph,
-    .step-down-glyph {
-      display: block;
-      padding: 4px 10px;
-      cursor: pointer;
-    }
+  .step-up-glyph,
+  .step-down-glyph {
+    display: block;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
 
-    .step-up-glyph:before,
-    .step-down-glyph:before {
-      content: '';
-      display: block;
-      border: solid transparent 6px;
-    }
+  .step-up-glyph:before,
+  .step-down-glyph:before {
+    content: '';
+    display: block;
+    border: solid transparent 6px;
+  }
 
-    .step-up-glyph:before {
-      border-bottom-color: ${design_tokens.hY};
-    }
+  .step-up-glyph:before {
+    border-bottom-color: ${design_tokens.hY};
+  }
 
-    .step-down-glyph:before {
-      border-top-color: ${design_tokens.hY};
-    }
+  .step-down-glyph:before {
+    border-top-color: ${design_tokens.hY};
+  }
 
-    :host(:hover:not([disabled])) .controls,
-    :host(:focus-within:not([disabled])) .controls {
-      opacity: 1;
-    }
-  `,jpNumberField=esm_number_field.Ki.compose({baseName:"number-field",baseClass:number_field.K,styles:numberFieldStyles,template:number_field_template.M,shadowOptions:{delegatesFocus:!0},stepDownGlyph:'\n        <span class="step-down-glyph" part="step-down-glyph"></span>\n    ',stepUpGlyph:'\n        <span class="step-up-glyph" part="step-up-glyph"></span>\n    '});var listbox_option=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/listbox-option/listbox-option.js"),listbox_option_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/listbox-option/listbox-option.template.js");const optionStyles=(context,definition)=>css.i`
+  :host(:hover:not([disabled])) .controls,
+  :host(:focus-within:not([disabled])) .controls {
+    opacity: 1;
+  }
+`,jpNumberField=esm_number_field.Ki.compose({baseName:"number-field",baseClass:number_field.K,styles:numberFieldStyles,template:number_field_template.M,shadowOptions:{delegatesFocus:!0},stepDownGlyph:'\n        <span class="step-down-glyph" part="step-down-glyph"></span>\n    ',stepUpGlyph:'\n        <span class="step-up-glyph" part="step-up-glyph"></span>\n    '});var listbox_option=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/listbox-option/listbox-option.js"),listbox_option_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/listbox-option/listbox-option.template.js");const optionStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-flex")} :host {
       align-items: center;
       font-family: ${esm_design_tokens.SV};
@@ -2023,27 +2019,27 @@
       margin-inline-end: 1ch;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host {
-          border-color: transparent;
-          forced-color-adjust: none;
-          color: ${system_colors.H.ButtonText};
-          fill: currentcolor;
-        }
+      :host {
+        border-color: transparent;
+        forced-color-adjust: none;
+        color: ${system_colors.H.ButtonText};
+        fill: currentcolor;
+      }
 
-        :host(:not([aria-selected='true']):hover),
-        :host([aria-selected='true']) {
-          background: ${system_colors.H.Highlight};
-          color: ${system_colors.H.HighlightText};
-        }
+      :host(:not([aria-selected='true']):hover),
+      :host([aria-selected='true']) {
+        background: ${system_colors.H.Highlight};
+        color: ${system_colors.H.HighlightText};
+      }
 
-        :host([disabled]),
-        :host([disabled]:not([aria-selected='true']):hover) {
-          background: ${system_colors.H.Canvas};
-          color: ${system_colors.H.GrayText};
-          fill: currentcolor;
-          opacity: 1;
-        }
-      `)),jpOption=listbox_option.wt.compose({baseName:"option",template:listbox_option_template.T,styles:optionStyles});var base_progress=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/progress/base-progress.js"),progress_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/progress/progress.template.js"),progress_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/progress/progress.styles.js");const jpProgress=base_progress.B.compose({baseName:"progress",template:progress_template.n,styles:progress_styles.Q,indeterminateIndicator1:'\n        <span class="indeterminate-indicator-1" part="indeterminate-indicator-1"></span>\n    ',indeterminateIndicator2:'\n        <span class="indeterminate-indicator-2" part="indeterminate-indicator-2"></span>\n    '});var progress_ring_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/progress-ring/progress-ring.template.js"),progress_ring_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/progress-ring/progress-ring.styles.js");const jpProgressRing=base_progress.B.compose({baseName:"progress-ring",template:progress_ring_template.Z,styles:progress_ring_styles.j,indeterminateIndicator:'\n        <svg class="progress" part="progress" viewBox="0 0 16 16">\n            <circle\n                class="background"\n                part="background"\n                cx="8px"\n                cy="8px"\n                r="7px"\n            ></circle>\n            <circle\n                class="indeterminate-indicator-1"\n                part="indeterminate-indicator-1"\n                cx="8px"\n                cy="8px"\n                r="7px"\n            ></circle>\n        </svg>\n    '});var radio_radio=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio/radio.js"),radio_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio/radio.template.js");const radioStyles=(context,definition)=>css.i`
+      :host([disabled]),
+      :host([disabled]:not([aria-selected='true']):hover) {
+        background: ${system_colors.H.Canvas};
+        color: ${system_colors.H.GrayText};
+        fill: currentcolor;
+        opacity: 1;
+      }
+    `)),jpOption=listbox_option.wt.compose({baseName:"option",template:listbox_option_template.T,styles:optionStyles});var base_progress=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/progress/base-progress.js"),progress_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/progress/progress.template.js"),progress_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/progress/progress.styles.js");const jpProgress=base_progress.B.compose({baseName:"progress",template:progress_template.n,styles:progress_styles.Q,indeterminateIndicator1:'\n        <span class="indeterminate-indicator-1" part="indeterminate-indicator-1"></span>\n    ',indeterminateIndicator2:'\n        <span class="indeterminate-indicator-2" part="indeterminate-indicator-2"></span>\n    '});var progress_ring_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/progress-ring/progress-ring.template.js"),progress_ring_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/progress-ring/progress-ring.styles.js");const jpProgressRing=base_progress.B.compose({baseName:"progress-ring",template:progress_ring_template.Z,styles:progress_ring_styles.j,indeterminateIndicator:'\n        <svg class="progress" part="progress" viewBox="0 0 16 16">\n            <circle\n                class="background"\n                part="background"\n                cx="8px"\n                cy="8px"\n                r="7px"\n            ></circle>\n            <circle\n                class="indeterminate-indicator-1"\n                part="indeterminate-indicator-1"\n                cx="8px"\n                cy="8px"\n                r="7px"\n            ></circle>\n        </svg>\n    '});var radio_radio=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio/radio.js"),radio_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio/radio.template.js");const radioStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-flex")} :host {
       --input-size: calc((${heightNumber} / 2) + ${design_tokens._5});
       align-items: center;
@@ -2168,164 +2164,160 @@
       opacity: ${design_tokens.VF};
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        .control,
-        :host([aria-checked='true']:not([disabled])) .control {
-          forced-color-adjust: none;
-          border-color: ${system_colors.H.FieldText};
-          background: ${system_colors.H.Field};
-        }
-        :host(:not([disabled])) .control:hover {
-          border-color: ${system_colors.H.Highlight};
-          background: ${system_colors.H.Field};
-        }
-        :host([aria-checked='true']:not([disabled])) .control:hover,
-        :host([aria-checked='true']:not([disabled])) .control:active {
-          border-color: ${system_colors.H.Highlight};
-          background: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']) .checked-indicator {
-          background: ${system_colors.H.Highlight};
-          fill: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']:not([disabled]))
-          .control:hover
-          .checked-indicator,
-        :host([aria-checked='true']:not([disabled]))
-          .control:active
-          .checked-indicator {
-          background: ${system_colors.H.HighlightText};
-          fill: ${system_colors.H.HighlightText};
-        }
-        :host(:${style_focus.b}) .control {
-          border-color: ${system_colors.H.Highlight};
-          outline-offset: 2px;
-          outline: solid calc(${design_tokens.vx} * 1px)
-            ${system_colors.H.FieldText};
-        }
-        :host([aria-checked="true"]:${style_focus.b}:not([disabled])) .control {
-          border-color: ${system_colors.H.Highlight};
-          outline: solid calc(${design_tokens.vx} * 1px)
-            ${system_colors.H.FieldText};
-        }
-        :host([disabled]) {
-          forced-color-adjust: none;
-          opacity: 1;
-        }
-        :host([disabled]) .label {
-          color: ${system_colors.H.GrayText};
-        }
-        :host([disabled]) .control,
-        :host([aria-checked='true'][disabled]) .control:hover,
-        .control:active {
-          background: ${system_colors.H.Field};
-          border-color: ${system_colors.H.GrayText};
-        }
-        :host([disabled]) .checked-indicator,
-        :host([aria-checked='true'][disabled])
-          .control:hover
-          .checked-indicator {
-          fill: ${system_colors.H.GrayText};
-          background: ${system_colors.H.GrayText};
-        }
-      `)),jpRadio=radio_radio.Y.compose({baseName:"radio",template:radio_template.C,styles:radioStyles,checkedIndicator:'\n    <div part="checked-indicator" class="checked-indicator"></div>\n  '});var radio_group=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio-group/radio-group.js"),radio_group_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio-group/radio-group.template.js"),radio_group_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/radio-group/radio-group.styles.js");const jpRadioGroup=radio_group.E.compose({baseName:"radio-group",template:radio_group_template.l,styles:radio_group_styles.p});var search=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/search/search.js"),search_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/search/search.template.js"),esm_search=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/search/index.js"),design_token=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/design-token/design-token.js");const clearButtonHover=design_token.DesignToken.create("clear-button-hover").withDefault((target=>{const buttonRecipe=design_tokens.DF.getValueFor(target),inputRecipe=design_tokens.At.getValueFor(target);return buttonRecipe.evaluate(target,inputRecipe.evaluate(target).hover).hover})),clearButtonActive=design_token.DesignToken.create("clear-button-active").withDefault((target=>{const buttonRecipe=design_tokens.DF.getValueFor(target),inputRecipe=design_tokens.At.getValueFor(target);return buttonRecipe.evaluate(target,inputRecipe.evaluate(target).hover).active})),searchStyles=(context,definition)=>css.i`
-    ${BaseFieldStyles}
+      .control,
+      :host([aria-checked='true']:not([disabled])) .control {
+        forced-color-adjust: none;
+        border-color: ${system_colors.H.FieldText};
+        background: ${system_colors.H.Field};
+      }
+      :host(:not([disabled])) .control:hover {
+        border-color: ${system_colors.H.Highlight};
+        background: ${system_colors.H.Field};
+      }
+      :host([aria-checked='true']:not([disabled])) .control:hover,
+      :host([aria-checked='true']:not([disabled])) .control:active {
+        border-color: ${system_colors.H.Highlight};
+        background: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']) .checked-indicator {
+        background: ${system_colors.H.Highlight};
+        fill: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']:not([disabled]))
+        .control:hover
+        .checked-indicator,
+      :host([aria-checked='true']:not([disabled]))
+        .control:active
+        .checked-indicator {
+        background: ${system_colors.H.HighlightText};
+        fill: ${system_colors.H.HighlightText};
+      }
+      :host(:${style_focus.b}) .control {
+        border-color: ${system_colors.H.Highlight};
+        outline-offset: 2px;
+        outline: solid calc(${design_tokens.vx} * 1px) ${system_colors.H.FieldText};
+      }
+      :host([aria-checked="true"]:${style_focus.b}:not([disabled])) .control {
+        border-color: ${system_colors.H.Highlight};
+        outline: solid calc(${design_tokens.vx} * 1px) ${system_colors.H.FieldText};
+      }
+      :host([disabled]) {
+        forced-color-adjust: none;
+        opacity: 1;
+      }
+      :host([disabled]) .label {
+        color: ${system_colors.H.GrayText};
+      }
+      :host([disabled]) .control,
+      :host([aria-checked='true'][disabled]) .control:hover,
+      .control:active {
+        background: ${system_colors.H.Field};
+        border-color: ${system_colors.H.GrayText};
+      }
+      :host([disabled]) .checked-indicator,
+      :host([aria-checked='true'][disabled]) .control:hover .checked-indicator {
+        fill: ${system_colors.H.GrayText};
+        background: ${system_colors.H.GrayText};
+      }
+    `)),jpRadio=radio_radio.Y.compose({baseName:"radio",template:radio_template.C,styles:radioStyles,checkedIndicator:'\n    <div part="checked-indicator" class="checked-indicator"></div>\n  '});var radio_group=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio-group/radio-group.js"),radio_group_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/radio-group/radio-group.template.js"),radio_group_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/radio-group/radio-group.styles.js");const jpRadioGroup=radio_group.E.compose({baseName:"radio-group",template:radio_group_template.l,styles:radio_group_styles.p});var search=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/search/search.js"),search_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/search/search.template.js"),esm_search=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/search/index.js"),design_token=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/design-token/design-token.js");const clearButtonHover=design_token.DesignToken.create("clear-button-hover").withDefault((target=>{const buttonRecipe=design_tokens.DF.getValueFor(target),inputRecipe=design_tokens.At.getValueFor(target);return buttonRecipe.evaluate(target,inputRecipe.evaluate(target).hover).hover})),clearButtonActive=design_token.DesignToken.create("clear-button-active").withDefault((target=>{const buttonRecipe=design_tokens.DF.getValueFor(target),inputRecipe=design_tokens.At.getValueFor(target);return buttonRecipe.evaluate(target,inputRecipe.evaluate(target).hover).active})),searchStyles=(context,definition)=>css.i`
+  ${BaseFieldStyles}
 
-    .control {
-      padding: 0;
-      padding-inline-start: calc(${design_tokens._5} * 2px + 1px);
-      padding-inline-end: calc(
-        (${design_tokens._5} * 2px) + (${heightNumber} * 1px) + 1px
-      );
-    }
+  .control {
+    padding: 0;
+    padding-inline-start: calc(${design_tokens._5} * 2px + 1px);
+    padding-inline-end: calc(
+      (${design_tokens._5} * 2px) + (${heightNumber} * 1px) + 1px
+    );
+  }
 
-    .control::-webkit-search-cancel-button {
-      -webkit-appearance: none;
-    }
+  .control::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
 
-    .control:hover,
+  .control:hover,
     .control:${style_focus.b},
     .control:disabled,
     .control:active {
-      outline: none;
-    }
+    outline: none;
+  }
 
-    .clear-button {
-      height: calc(100% - 2px);
-      opacity: 0;
-      margin: 1px;
-      background: transparent;
-      color: ${design_tokens.hY};
-      fill: currentcolor;
-      border: none;
-      border-radius: calc(${design_tokens.UW} * 1px);
-      min-width: calc(${heightNumber} * 1px);
-      font-size: ${design_tokens.cS};
-      line-height: ${design_tokens.RU};
-      outline: none;
-      font-family: ${design_tokens.SV};
-      padding: 0 calc((10 + (${design_tokens._5} * 2 * ${design_tokens.hV})) * 1px);
-    }
+  .clear-button {
+    height: calc(100% - 2px);
+    opacity: 0;
+    margin: 1px;
+    background: transparent;
+    color: ${design_tokens.hY};
+    fill: currentcolor;
+    border: none;
+    border-radius: calc(${design_tokens.UW} * 1px);
+    min-width: calc(${heightNumber} * 1px);
+    font-size: ${design_tokens.cS};
+    line-height: ${design_tokens.RU};
+    outline: none;
+    font-family: ${design_tokens.SV};
+    padding: 0 calc((10 + (${design_tokens._5} * 2 * ${design_tokens.hV})) * 1px);
+  }
 
-    .clear-button:hover {
-      background: ${design_tokens.Qp};
-    }
+  .clear-button:hover {
+    background: ${design_tokens.Qp};
+  }
 
-    .clear-button:active {
-      background: ${design_tokens.sG};
-    }
+  .clear-button:active {
+    background: ${design_tokens.sG};
+  }
 
-    :host([appearance='filled']) .clear-button:hover {
-      background: ${clearButtonHover};
-    }
+  :host([appearance='filled']) .clear-button:hover {
+    background: ${clearButtonHover};
+  }
 
-    :host([appearance='filled']) .clear-button:active {
-      background: ${clearButtonActive};
-    }
+  :host([appearance='filled']) .clear-button:active {
+    background: ${clearButtonActive};
+  }
 
-    .input-wrapper {
-      display: flex;
-      position: relative;
-      width: 100%;
-    }
+  .input-wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
 
-    .start,
-    .end {
-      display: flex;
-      margin: 1px;
-    }
+  .start,
+  .end {
+    display: flex;
+    margin: 1px;
+  }
 
-    ::slotted([slot='end']) {
-      height: 100%;
-    }
+  ::slotted([slot='end']) {
+    height: 100%;
+  }
 
-    .end {
-      margin-inline-end: 1px;
-    }
+  .end {
+    margin-inline-end: 1px;
+  }
 
-    ::slotted(svg) {
-      /* TODO: adaptive typography https://github.com/microsoft/fast/issues/2432 */
-      margin-inline-end: 11px;
-      margin-inline-start: 11px;
-      margin-top: auto;
-      margin-bottom: auto;
-    }
+  ::slotted(svg) {
+    /* TODO: adaptive typography https://github.com/microsoft/fast/issues/2432 */
+    margin-inline-end: 11px;
+    margin-inline-start: 11px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 
-    .clear-button__hidden {
-      opacity: 0;
-    }
+  .clear-button__hidden {
+    opacity: 0;
+  }
 
-    :host(:hover:not([disabled], [readOnly])) .clear-button,
-    :host(:active:not([disabled], [readOnly])) .clear-button,
-    :host(:focus-within:not([disabled], [readOnly])) .clear-button {
-      opacity: 1;
-    }
+  :host(:hover:not([disabled], [readOnly])) .clear-button,
+  :host(:active:not([disabled], [readOnly])) .clear-button,
+  :host(:focus-within:not([disabled], [readOnly])) .clear-button {
+    opacity: 1;
+  }
 
-    :host(:hover:not([disabled], [readOnly])) .clear-button__hidden,
-    :host(:active:not([disabled], [readOnly])) .clear-button__hidden,
-    :host(:focus-within:not([disabled], [readOnly])) .clear-button__hidden {
-      opacity: 0;
-    }
-  `,jpSearch=esm_search.ol.compose({baseName:"search",baseClass:search.o,template:search_template.O,styles:searchStyles,shadowOptions:{delegatesFocus:!0}});var select_select=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/select/select.js"),select_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/select/select.template.js");class Select extends select_select.P{}(0,tslib_es6.gn)([(0,attributes.Lj)({attribute:"minimal",mode:"boolean"})],Select.prototype,"minimal",void 0);const jpSelect=Select.compose({baseName:"select",baseClass:select_select.P,template:select_template.U,styles:selectStyles,indicator:'\n        <svg\n            class="select-indicator"\n            part="select-indicator"\n            viewBox="0 0 12 7"\n            xmlns="http://www.w3.org/2000/svg"\n        >\n            <path\n                d="M11.85.65c.2.2.2.5 0 .7L6.4 6.84a.55.55 0 01-.78 0L.14 1.35a.5.5 0 11.71-.7L6 5.8 11.15.65c.2-.2.5-.2.7 0z"\n            />\n        </svg>\n    '});var slider=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider/slider.js"),slider_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider/slider.template.js");const jpSlider=slider.i.compose({baseName:"slider",template:slider_template.t,styles:(context,definition)=>css.i`
+  :host(:hover:not([disabled], [readOnly])) .clear-button__hidden,
+  :host(:active:not([disabled], [readOnly])) .clear-button__hidden,
+  :host(:focus-within:not([disabled], [readOnly])) .clear-button__hidden {
+    opacity: 0;
+  }
+`,jpSearch=esm_search.ol.compose({baseName:"search",baseClass:search.o,template:search_template.O,styles:searchStyles,shadowOptions:{delegatesFocus:!0}});var select_select=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/select/select.js"),select_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/select/select.template.js");class Select extends select_select.P{}(0,tslib_es6.gn)([(0,attributes.Lj)({attribute:"minimal",mode:"boolean"})],Select.prototype,"minimal",void 0);const jpSelect=Select.compose({baseName:"select",baseClass:select_select.P,template:select_template.U,styles:selectStyles,indicator:'\n        <svg\n            class="select-indicator"\n            part="select-indicator"\n            viewBox="0 0 12 7"\n            xmlns="http://www.w3.org/2000/svg"\n        >\n            <path\n                d="M11.85.65c.2.2.2.5 0 .7L6.4 6.84a.55.55 0 01-.78 0L.14 1.35a.5.5 0 11.71-.7L6 5.8 11.15.65c.2-.2.5-.2.7 0z"\n            />\n        </svg>\n    '});var slider=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider/slider.js"),slider_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider/slider.template.js");const jpSlider=slider.i.compose({baseName:"slider",template:slider_template.t,styles:(context,definition)=>css.i`
     :host([hidden]) {
       display: none;
     }
@@ -2362,7 +2354,8 @@
     }
 
     :host(:${style_focus.b}) .thumb-cursor {
-      box-shadow: 0 0 0 2px ${design_tokens.If},
+      box-shadow:
+        0 0 0 2px ${design_tokens.If},
         0 0 0 calc((2 + ${design_tokens.vx}) * 1px) ${design_tokens.D8};
     }
 
@@ -2429,38 +2422,39 @@
       opacity: ${design_tokens.VF};
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        .thumb-cursor {
-          forced-color-adjust: none;
-          border-color: ${system_colors.H.FieldText};
-          background: ${system_colors.H.FieldText};
-        }
-        .thumb-cursor:hover,
-        .thumb-cursor:active {
-          background: ${system_colors.H.Highlight};
-        }
-        .track {
-          forced-color-adjust: none;
-          background: ${system_colors.H.FieldText};
-        }
-        :host(:${style_focus.b}) .thumb-cursor {
-          border-color: ${system_colors.H.Highlight};
-        }
-        :host([disabled]) {
-          opacity: 1;
-        }
-        :host([disabled]) .track,
-        :host([disabled]) .thumb-cursor {
-          forced-color-adjust: none;
-          background: ${system_colors.H.GrayText};
-        }
+      .thumb-cursor {
+        forced-color-adjust: none;
+        border-color: ${system_colors.H.FieldText};
+        background: ${system_colors.H.FieldText};
+      }
+      .thumb-cursor:hover,
+      .thumb-cursor:active {
+        background: ${system_colors.H.Highlight};
+      }
+      .track {
+        forced-color-adjust: none;
+        background: ${system_colors.H.FieldText};
+      }
+      :host(:${style_focus.b}) .thumb-cursor {
+        border-color: ${system_colors.H.Highlight};
+      }
+      :host([disabled]) {
+        opacity: 1;
+      }
+      :host([disabled]) .track,
+      :host([disabled]) .thumb-cursor {
+        forced-color-adjust: none;
+        background: ${system_colors.H.GrayText};
+      }
 
-        :host(:${style_focus.b}) .thumb-cursor {
-          background: ${system_colors.H.Highlight};
-          border-color: ${system_colors.H.Highlight};
-          box-shadow: 0 0 0 2px ${system_colors.H.Field},
-            0 0 0 4px ${system_colors.H.FieldText};
-        }
-      `)),thumb:'\n        <div class="thumb-cursor"></div>\n    '});var slider_label=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/slider-label/index.js"),slider_label_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/slider-label/slider-label.styles.js"),slider_label_slider_label=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider-label/slider-label.js"),slider_label_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider-label/slider-label.template.js");const jpSliderLabel=slider_label.PQ.compose({baseName:"slider-label",baseClass:slider_label_slider_label.P,template:slider_label_template.$,styles:slider_label_styles.Ok});var switch_switch=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/switch/switch.js"),switch_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/switch/switch.template.js");const jpSwitch=switch_switch.r.compose({baseName:"switch",template:switch_template.o,styles:(context,definition)=>css.i`
+      :host(:${style_focus.b}) .thumb-cursor {
+        background: ${system_colors.H.Highlight};
+        border-color: ${system_colors.H.Highlight};
+        box-shadow:
+          0 0 0 2px ${system_colors.H.Field},
+          0 0 0 4px ${system_colors.H.FieldText};
+      }
+    `)),thumb:'\n        <div class="thumb-cursor"></div>\n    '});var slider_label=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/slider-label/index.js"),slider_label_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/slider-label/slider-label.styles.js"),slider_label_slider_label=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider-label/slider-label.js"),slider_label_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/slider-label/slider-label.template.js");const jpSliderLabel=slider_label.PQ.compose({baseName:"slider-label",baseClass:slider_label_slider_label.P,template:slider_label_template.$,styles:slider_label_styles.Ok});var switch_switch=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/switch/switch.js"),switch_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/switch/switch.template.js");const jpSwitch=switch_switch.r.compose({baseName:"switch",template:switch_template.o,styles:(context,definition)=>css.i`
     :host([hidden]) {
       display: none;
     }
@@ -2609,58 +2603,56 @@
       display: block;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        .checked-indicator,
-        :host(:not([disabled])) .switch:active .checked-indicator {
-          forced-color-adjust: none;
-          background: ${system_colors.H.FieldText};
-        }
-        .switch {
-          forced-color-adjust: none;
-          background: ${system_colors.H.Field};
-          border-color: ${system_colors.H.FieldText};
-        }
-        :host(:not([disabled])) .switch:hover {
-          background: ${system_colors.H.HighlightText};
-          border-color: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']) .switch {
-          background: ${system_colors.H.Highlight};
-          border-color: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']:not([disabled])) .switch:hover,
-        :host(:not([disabled])) .switch:active {
-          background: ${system_colors.H.HighlightText};
-          border-color: ${system_colors.H.Highlight};
-        }
-        :host([aria-checked='true']) .checked-indicator {
-          background: ${system_colors.H.HighlightText};
-        }
-        :host([aria-checked='true']:not([disabled]))
-          .switch:hover
-          .checked-indicator {
-          background: ${system_colors.H.Highlight};
-        }
-        :host([disabled]) {
-          opacity: 1;
-        }
-        :host(:${style_focus.b}) .switch {
-          border-color: ${system_colors.H.Highlight};
-          outline-offset: 2px;
-          outline: solid calc(${design_tokens.vx} * 1px)
-            ${system_colors.H.FieldText};
-        }
-        :host([aria-checked="true"]:${style_focus.b}:not([disabled])) .switch {
-          outline: solid calc(${design_tokens.vx} * 1px)
-            ${system_colors.H.FieldText};
-        }
-        :host([disabled]) .checked-indicator {
-          background: ${system_colors.H.GrayText};
-        }
-        :host([disabled]) .switch {
-          background: ${system_colors.H.Field};
-          border-color: ${system_colors.H.GrayText};
-        }
-      `),new design_tokens.O8(css.i`
+      .checked-indicator,
+      :host(:not([disabled])) .switch:active .checked-indicator {
+        forced-color-adjust: none;
+        background: ${system_colors.H.FieldText};
+      }
+      .switch {
+        forced-color-adjust: none;
+        background: ${system_colors.H.Field};
+        border-color: ${system_colors.H.FieldText};
+      }
+      :host(:not([disabled])) .switch:hover {
+        background: ${system_colors.H.HighlightText};
+        border-color: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']) .switch {
+        background: ${system_colors.H.Highlight};
+        border-color: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']:not([disabled])) .switch:hover,
+      :host(:not([disabled])) .switch:active {
+        background: ${system_colors.H.HighlightText};
+        border-color: ${system_colors.H.Highlight};
+      }
+      :host([aria-checked='true']) .checked-indicator {
+        background: ${system_colors.H.HighlightText};
+      }
+      :host([aria-checked='true']:not([disabled]))
+        .switch:hover
+        .checked-indicator {
+        background: ${system_colors.H.Highlight};
+      }
+      :host([disabled]) {
+        opacity: 1;
+      }
+      :host(:${style_focus.b}) .switch {
+        border-color: ${system_colors.H.Highlight};
+        outline-offset: 2px;
+        outline: solid calc(${design_tokens.vx} * 1px) ${system_colors.H.FieldText};
+      }
+      :host([aria-checked="true"]:${style_focus.b}:not([disabled])) .switch {
+        outline: solid calc(${design_tokens.vx} * 1px) ${system_colors.H.FieldText};
+      }
+      :host([disabled]) .checked-indicator {
+        background: ${system_colors.H.GrayText};
+      }
+      :host([disabled]) .switch {
+        background: ${system_colors.H.Field};
+        border-color: ${system_colors.H.GrayText};
+      }
+    `),new design_tokens.O8(css.i`
         .checked-indicator {
           left: 5px;
           right: calc(((${heightNumber} / 2) + 1) * 1px);
@@ -2770,35 +2762,35 @@
     :host(.vertical:hover[aria-selected='true']) {
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host {
-          forced-color-adjust: none;
-          border-color: transparent;
-          color: ${system_colors.H.ButtonText};
-          fill: currentcolor;
-        }
-        :host(:hover),
-        :host(.vertical:hover),
-        :host([aria-selected='true']:hover) {
-          background: ${system_colors.H.Highlight};
-          color: ${system_colors.H.HighlightText};
-          fill: currentcolor;
-        }
-        :host([aria-selected='true']) {
-          background: ${system_colors.H.HighlightText};
-          color: ${system_colors.H.Highlight};
-          fill: currentcolor;
-        }
-        :host(:${style_focus.b}) {
-          border-color: ${system_colors.H.ButtonText};
-          box-shadow: none;
-        }
-        :host([disabled]),
-        :host([disabled]:hover) {
-          opacity: 1;
-          color: ${system_colors.H.GrayText};
-          background: ${system_colors.H.ButtonFace};
-        }
-      `)),jpTab=tab.O.compose({baseName:"tab",template:tab_template.O,styles:tabStyles});var tabs=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tabs/tabs.js"),tabs_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tabs/tabs.template.js");const tabsStyles=(context,definition)=>css.i`
+      :host {
+        forced-color-adjust: none;
+        border-color: transparent;
+        color: ${system_colors.H.ButtonText};
+        fill: currentcolor;
+      }
+      :host(:hover),
+      :host(.vertical:hover),
+      :host([aria-selected='true']:hover) {
+        background: ${system_colors.H.Highlight};
+        color: ${system_colors.H.HighlightText};
+        fill: currentcolor;
+      }
+      :host([aria-selected='true']) {
+        background: ${system_colors.H.HighlightText};
+        color: ${system_colors.H.Highlight};
+        fill: currentcolor;
+      }
+      :host(:${style_focus.b}) {
+        border-color: ${system_colors.H.ButtonText};
+        box-shadow: none;
+      }
+      :host([disabled]),
+      :host([disabled]:hover) {
+        opacity: 1;
+        color: ${system_colors.H.GrayText};
+        background: ${system_colors.H.ButtonFace};
+      }
+    `)),jpTab=tab.O.compose({baseName:"tab",template:tab_template.O,styles:tabStyles});var tabs=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tabs/tabs.js"),tabs_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tabs/tabs.template.js");const tabsStyles=(context,definition)=>css.i`
     ${(0,display.j)("grid")} :host {
       box-sizing: border-box;
       font-family: ${design_tokens.SV};
@@ -2893,12 +2885,12 @@
       transition: transform 0.01s ease-in-out;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        .activeIndicator,
-        :host([orientation='vertical']) .activeIndicator {
-          forced-color-adjust: none;
-          background: ${system_colors.H.Highlight};
-        }
-      `)),jpTabs=tabs.m.compose({baseName:"tabs",template:tabs_template.q,styles:tabsStyles});var text_area=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-area/text-area.js"),text_area_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-area/text-area.template.js"),esm_text_area=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/text-area/index.js");const textAreaStyles=(context,definition)=>css.i`
+      .activeIndicator,
+      :host([orientation='vertical']) .activeIndicator {
+        forced-color-adjust: none;
+        background: ${system_colors.H.Highlight};
+      }
+    `)),jpTabs=tabs.m.compose({baseName:"tabs",template:tabs_template.q,styles:tabsStyles});var text_area=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-area/text-area.js"),text_area_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-area/text-area.template.js"),esm_text_area=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/text-area/index.js");const textAreaStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-block")} :host {
       font-family: ${design_tokens.SV};
       outline: none;
@@ -2991,17 +2983,17 @@
       border-color: ${design_tokens.ak};
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host([disabled]) {
-          opacity: 1;
-        }
-      `)),jpTextArea=esm_text_area.Kx.compose({baseName:"text-area",baseClass:text_area.K,template:text_area_template.Z,styles:textAreaStyles,shadowOptions:{delegatesFocus:!0}});var text_field_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-field/text-field.template.js"),esm_text_field=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/text-field/index.js");const textFieldStyles=(context,definition)=>css.i`
-    ${BaseFieldStyles}
+      :host([disabled]) {
+        opacity: 1;
+      }
+    `)),jpTextArea=esm_text_area.Kx.compose({baseName:"text-area",baseClass:text_area.K,template:text_area_template.Z,styles:textAreaStyles,shadowOptions:{delegatesFocus:!0}});var text_field_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/text-field/text-field.template.js"),esm_text_field=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/text-field/index.js");const textFieldStyles=(context,definition)=>css.i`
+  ${BaseFieldStyles}
 
-    .start,
+  .start,
     .end {
-      display: flex;
-    }
-  `,jpTextField=esm_text_field.nv.compose({baseName:"text-field",baseClass:text_field.nv,template:text_field_template.J,styles:textFieldStyles,shadowOptions:{delegatesFocus:!0}});var toolbar=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/toolbar/index.js"),toolbar_toolbar=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/toolbar/toolbar.js"),toolbar_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/toolbar/toolbar.template.js");const toolbarStyles=(context,definition)=>css.i`
+    display: flex;
+  }
+`,jpTextField=esm_text_field.nv.compose({baseName:"text-field",baseClass:text_field.nv,template:text_field_template.J,styles:textFieldStyles,shadowOptions:{delegatesFocus:!0}});var toolbar=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/toolbar/index.js"),toolbar_toolbar=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/toolbar/toolbar.js"),toolbar_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/toolbar/toolbar.template.js");const toolbarStyles=(context,definition)=>css.i`
     ${(0,display.j)("inline-flex")} :host {
       --toolbar-item-gap: calc(
         (var(--design-unit) + calc(var(--density) + 2)) * 1px
@@ -3021,6 +3013,8 @@
       display: inline-flex;
       flex-flow: row wrap;
       justify-content: flex-start;
+      width: 100%;
+      height: 100%;
     }
 
     :host([orientation='vertical']) .positioning-region {
@@ -3049,13 +3043,13 @@
       height: 16px;
     }
   `.withBehaviors((0,match_media_stylesheet_behavior.vF)(css.i`
-        :host(:${style_focus.b}) {
-          box-shadow: 0 0 0 calc(${design_tokens.vx} * 1px)
-            ${system_colors.H.Highlight};
-          color: ${system_colors.H.ButtonText};
-          forced-color-adjust: none;
-        }
-      `)),jpToolbar=toolbar.o8.compose({baseName:"toolbar",baseClass:toolbar_toolbar.o,template:toolbar_template.T,styles:toolbarStyles,shadowOptions:{delegatesFocus:!0}});var tooltip=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tooltip/tooltip.js"),tooltip_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tooltip/tooltip.template.js"),tooltip_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/tooltip/tooltip.styles.js");const jpTooltip=tooltip.u.compose({baseName:"tooltip",template:tooltip_template.e,styles:tooltip_styles.n});var tree_item=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-item/tree-item.js"),tree_item_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-item/tree-item.template.js");const tree_item_styles_ltr=css.i`
+      :host(:${style_focus.b}) {
+        box-shadow: 0 0 0 calc(${design_tokens.vx} * 1px)
+          ${system_colors.H.Highlight};
+        color: ${system_colors.H.ButtonText};
+        forced-color-adjust: none;
+      }
+    `)),jpToolbar=toolbar.o8.compose({baseName:"toolbar",baseClass:toolbar_toolbar.o,template:toolbar_template.T,styles:toolbarStyles,shadowOptions:{delegatesFocus:!0}});var tooltip=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tooltip/tooltip.js"),tooltip_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tooltip/tooltip.template.js"),tooltip_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/tooltip/tooltip.styles.js");const jpTooltip=tooltip.u.compose({baseName:"tooltip",template:tooltip_template.e,styles:tooltip_styles.n});var tree_item=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-item/tree-item.js"),tree_item_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-item/tree-item.template.js");const tree_item_styles_ltr=css.i`
   .expand-collapse-glyph {
     transform: rotate(0deg);
   }
@@ -3255,68 +3249,68 @@
       --expand-collapse-button-nested-width: calc(${heightNumber} * -1px);
     }
   `.withBehaviors(new design_tokens.O8(tree_item_styles_ltr,tree_item_styles_rtl),(0,match_media_stylesheet_behavior.vF)(css.i`
-        :host {
-          forced-color-adjust: none;
-          border-color: transparent;
-          background: ${system_colors.H.Field};
-          color: ${system_colors.H.FieldText};
-        }
-        :host .content-region .expand-collapse-glyph {
-          fill: ${system_colors.H.FieldText};
-        }
-        :host .positioning-region:hover,
-        :host([selected]) .positioning-region {
-          background: ${system_colors.H.Highlight};
-        }
-        :host .positioning-region:hover .content-region,
-        :host([selected]) .positioning-region .content-region {
-          color: ${system_colors.H.HighlightText};
-        }
-        :host .positioning-region:hover .content-region .expand-collapse-glyph,
-        :host .positioning-region:hover .content-region .start,
-        :host .positioning-region:hover .content-region .end,
-        :host([selected]) .content-region .expand-collapse-glyph,
-        :host([selected]) .content-region .start,
-        :host([selected]) .content-region .end {
-          fill: ${system_colors.H.HighlightText};
-        }
-        :host([selected])::after {
-          background: ${system_colors.H.Field};
-        }
-        :host(:${style_focus.b}) .positioning-region {
-          border-color: ${system_colors.H.FieldText};
-          box-shadow: 0 0 0 2px inset ${system_colors.H.Field};
-          color: ${system_colors.H.FieldText};
-        }
-        :host([disabled]) .content-region,
-        :host([disabled]) .positioning-region:hover .content-region {
-          opacity: 1;
-          color: ${system_colors.H.GrayText};
-        }
-        :host([disabled]) .content-region .expand-collapse-glyph,
-        :host([disabled]) .content-region .start,
-        :host([disabled]) .content-region .end,
-        :host([disabled])
-          .positioning-region:hover
-          .content-region
-          .expand-collapse-glyph,
-        :host([disabled]) .positioning-region:hover .content-region .start,
-        :host([disabled]) .positioning-region:hover .content-region .end {
-          fill: ${system_colors.H.GrayText};
-        }
-        :host([disabled]) .positioning-region:hover {
-          background: ${system_colors.H.Field};
-        }
+      :host {
+        forced-color-adjust: none;
+        border-color: transparent;
+        background: ${system_colors.H.Field};
+        color: ${system_colors.H.FieldText};
+      }
+      :host .content-region .expand-collapse-glyph {
+        fill: ${system_colors.H.FieldText};
+      }
+      :host .positioning-region:hover,
+      :host([selected]) .positioning-region {
+        background: ${system_colors.H.Highlight};
+      }
+      :host .positioning-region:hover .content-region,
+      :host([selected]) .positioning-region .content-region {
+        color: ${system_colors.H.HighlightText};
+      }
+      :host .positioning-region:hover .content-region .expand-collapse-glyph,
+      :host .positioning-region:hover .content-region .start,
+      :host .positioning-region:hover .content-region .end,
+      :host([selected]) .content-region .expand-collapse-glyph,
+      :host([selected]) .content-region .start,
+      :host([selected]) .content-region .end {
+        fill: ${system_colors.H.HighlightText};
+      }
+      :host([selected])::after {
+        background: ${system_colors.H.Field};
+      }
+      :host(:${style_focus.b}) .positioning-region {
+        border-color: ${system_colors.H.FieldText};
+        box-shadow: 0 0 0 2px inset ${system_colors.H.Field};
+        color: ${system_colors.H.FieldText};
+      }
+      :host([disabled]) .content-region,
+      :host([disabled]) .positioning-region:hover .content-region {
+        opacity: 1;
+        color: ${system_colors.H.GrayText};
+      }
+      :host([disabled]) .content-region .expand-collapse-glyph,
+      :host([disabled]) .content-region .start,
+      :host([disabled]) .content-region .end,
+      :host([disabled])
+        .positioning-region:hover
+        .content-region
         .expand-collapse-glyph,
-        .start,
-        .end {
-          fill: ${system_colors.H.FieldText};
-        }
-        :host(.nested) .expand-collapse-button:hover {
-          background: ${system_colors.H.Field};
-        }
-        :host(.nested) .expand-collapse-button:hover .expand-collapse-glyph {
-          fill: ${system_colors.H.FieldText};
-        }
-      `)),expandCollapseGlyph:'\n        <svg\n            viewBox="0 0 16 16"\n            xmlns="http://www.w3.org/2000/svg"\n            class="expand-collapse-glyph"\n        >\n            <path\n                d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n            />\n        </svg>\n    '});var tree_view=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-view/tree-view.js"),tree_view_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-view/tree-view.template.js"),tree_view_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/tree-view/tree-view.styles.js");const jpTreeView=tree_view.L.compose({baseName:"tree-view",template:tree_view_template.E,styles:tree_view_styles.N}),allComponents={jpAccordion,jpAccordionItem,jpAnchoredRegion,jpAvatar,jpBadge,jpBreadcrumb,jpBreadcrumbItem,jpButton,jpCard,jpCheckbox,jpCombobox,jpDataGrid,jpDataGridCell,jpDataGridRow,jpDateField,jpDivider,jpMenu,jpMenuItem,jpNumberField,jpOption,jpProgress,jpProgressRing,jpRadio,jpRadioGroup,jpSearch,jpSelect,jpSlider,jpSliderLabel,jpSwitch,jpTab,jpTabPanel,jpTabs,jpTextArea,jpTextField,jpToolbar,jpTooltip,jpTreeItem,jpTreeView,register(container,...rest){if(container)for(const key in this)"register"!==key&&this[key]().register(container,...rest)}};var design_system=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/design-system/design-system.js");function provideJupyterDesignSystem(element){return design_system.K.getOrCreate(element).withPrefix("jp")}var parse_color=__webpack_require__("../../node_modules/@microsoft/fast-colors/dist/parse-color.js"),color_converters=__webpack_require__("../../node_modules/@microsoft/fast-colors/dist/color-converters.js"),color_hsl=__webpack_require__("../../node_modules/@microsoft/fast-colors/dist/color-hsl.js"),color=__webpack_require__("./src/color.ts");const THEME_NAME_BODY_ATTRIBUTE="data-jp-theme-name",THEME_MODE_BODY_ATTRIBUTE="data-jp-theme-light";let isThemeChangeInitialized=!1;function addJupyterLabThemeChangeListener(){isThemeChangeInitialized||(isThemeChangeInitialized=!0,function initThemeChangeListener(){const addObserver=()=>{new MutationObserver((()=>{applyCurrentTheme()})).observe(document.body,{attributes:!0,attributeFilter:[THEME_NAME_BODY_ATTRIBUTE],childList:!1,characterData:!1}),applyCurrentTheme()};"complete"===document.readyState?addObserver():window.addEventListener("load",addObserver)}())}const tokenMappings={"--jp-border-width":{converter:value=>{const parsedValue=parseInt(value,10);return isNaN(parsedValue)?null:parsedValue},token:design_tokens.H},"--jp-layout-color1":{converter:(value,isDark)=>{const parsedColor=(0,parse_color.lu)(value);if(parsedColor){const hsl=(0,color_converters.lw)(parsedColor),correctedHSL=color_hsl.H.fromObject({h:hsl.h,s:hsl.s,l:.5}),correctedRGB=(0,color_converters.hP)(correctedHSL);return color.vD.from(color.wd.create(correctedRGB.r,correctedRGB.g,correctedRGB.b))}return null},token:design_tokens.yv},"--jp-brand-color1":{converter:(value,isDark)=>{const parsedColor=(0,parse_color.lu)(value);if(parsedColor){const hsl=(0,color_converters.lw)(parsedColor),direction=isDark?1:-1,correctedHSL=color_hsl.H.fromObject({h:hsl.h,s:hsl.s,l:hsl.l+direction*design_tokens.B2.getValueFor(document.body)/94}),correctedRGB=(0,color_converters.hP)(correctedHSL);return color.vD.from(color.wd.create(correctedRGB.r,correctedRGB.g,correctedRGB.b))}return null},token:design_tokens.au},"--jp-ui-font-family":{token:design_tokens.SV},"--jp-ui-font-size1":{token:design_tokens.cS}};function applyCurrentTheme(){var _a;if(!document.body.getAttribute(THEME_NAME_BODY_ATTRIBUTE))return;const styles=getComputedStyle(document.body),isDark="false"===document.body.getAttribute(THEME_MODE_BODY_ATTRIBUTE);design_tokens.q2.setValueFor(document.body,isDark?color.he.DarkMode:color.he.LightMode);for(const jpTokenName in tokenMappings){const toolkitTokenName=tokenMappings[jpTokenName],value=styles.getPropertyValue(jpTokenName).toString();if(document.body&&""!==value){const parsedValue=(null!==(_a=toolkitTokenName.converter)&&void 0!==_a?_a:v=>v)(value.trim(),isDark);null!==parsedValue?toolkitTokenName.token.setValueFor(document.body,parsedValue):console.error(`Fail to parse value '${value}' for '${jpTokenName}' as FAST design token.`)}}}const JupyterDesignSystem=provideJupyterDesignSystem().register(allComponents);const _storybook_preview={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},options:{storySort:{order:["Docs","Library"]},isToolshown:!0,enableShortcuts:!1},docs:{theme:__webpack_require__("../../node_modules/@storybook/theming/dist/chunk-4NMOSTKD.mjs").np.dark},backgrounds:{default:"dark",values:[{name:"light",value:"#f9f9f9"},{name:"dark",value:"#252526"}]}},globalTypes:{accent:{name:"Accent",description:"Theme accent color for components",defaultValue:"#006CBE",toolbar:{icon:"paintbrush",items:[{value:"#006CBE",right:"🔵",title:"blue"},{value:"#DA1A5F",title:"pink"},{value:"#f2c812",title:"yellow"}]}}}}},"./docs lazy recursive ^\\.\\/.*$ include: (?:\\/docs(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.mdx)$":(module,__unused_webpack_exports,__webpack_require__)=>{var map={"./Introduction.mdx":["./docs/Introduction.mdx",6281],"./api-report.mdx":["./docs/api-report.mdx",3690,6978],"./changelog.mdx":["./docs/changelog.mdx",3690,221],"./contributing.mdx":["./docs/contributing.mdx",3690,8401],"./getting-started.mdx":["./docs/getting-started.mdx",3690,2549]};function webpackAsyncContext(req){if(!__webpack_require__.o(map,req))return Promise.resolve().then((()=>{var e=new Error("Cannot find module '"+req+"'");throw e.code="MODULE_NOT_FOUND",e}));var ids=map[req],id=ids[0];return Promise.all(ids.slice(1).map(__webpack_require__.e)).then((()=>__webpack_require__(id)))}webpackAsyncContext.keys=()=>Object.keys(map),webpackAsyncContext.id="./docs lazy recursive ^\\.\\/.*$ include: (?:\\/docs(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.mdx)$",module.exports=webpackAsyncContext},"./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.mdx)$":(module,__unused_webpack_exports,__webpack_require__)=>{var map={"./anchored-region/anchored-region.stories.mdx":["./src/anchored-region/anchored-region.stories.mdx",3690,5867]};function webpackAsyncContext(req){if(!__webpack_require__.o(map,req))return Promise.resolve().then((()=>{var e=new Error("Cannot find module '"+req+"'");throw e.code="MODULE_NOT_FOUND",e}));var ids=map[req],id=ids[0];return Promise.all(ids.slice(1).map(__webpack_require__.e)).then((()=>__webpack_require__(id)))}webpackAsyncContext.keys=()=>Object.keys(map),webpackAsyncContext.id="./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.mdx)$",module.exports=webpackAsyncContext},"./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.ts)$":(module,__unused_webpack_exports,__webpack_require__)=>{var map={"./accordion-item/accordion-item.stories":["./src/accordion-item/accordion-item.stories.ts",7246,7441],"./accordion-item/accordion-item.stories.ts":["./src/accordion-item/accordion-item.stories.ts",7246,7441],"./accordion/accordion.stories":["./src/accordion/accordion.stories.ts",7246,1928],"./accordion/accordion.stories.ts":["./src/accordion/accordion.stories.ts",7246,1928],"./avatar/avatar.stories":["./src/avatar/avatar.stories.ts",7246,2355],"./avatar/avatar.stories.ts":["./src/avatar/avatar.stories.ts",7246,2355],"./badge/badge.stories":["./src/badge/badge.stories.ts",7246,412],"./badge/badge.stories.ts":["./src/badge/badge.stories.ts",7246,412],"./breadcrumb-item/breadcrumb-item.stories":["./src/breadcrumb-item/breadcrumb-item.stories.ts",7246,2886],"./breadcrumb-item/breadcrumb-item.stories.ts":["./src/breadcrumb-item/breadcrumb-item.stories.ts",7246,2886],"./breadcrumb/breadcrumb.stories":["./src/breadcrumb/breadcrumb.stories.ts",7246,6842],"./breadcrumb/breadcrumb.stories.ts":["./src/breadcrumb/breadcrumb.stories.ts",7246,6842],"./button/button.stories":["./src/button/button.stories.ts",7246,911],"./button/button.stories.ts":["./src/button/button.stories.ts",7246,911],"./card/card.stories":["./src/card/card.stories.ts",7246,6279],"./card/card.stories.ts":["./src/card/card.stories.ts",7246,6279],"./checkbox/checkbox.stories":["./src/checkbox/checkbox.stories.ts",7246,3329],"./checkbox/checkbox.stories.ts":["./src/checkbox/checkbox.stories.ts",7246,3329],"./combobox/combobox.stories":["./src/combobox/combobox.stories.ts",7246,9736],"./combobox/combobox.stories.ts":["./src/combobox/combobox.stories.ts",7246,9736],"./data-grid/data-grid.stories":["./src/data-grid/data-grid.stories.ts",7246,3739],"./data-grid/data-grid.stories.ts":["./src/data-grid/data-grid.stories.ts",7246,3739],"./date-field/date-field.stories":["./src/date-field/date-field.stories.ts",7246,5318],"./date-field/date-field.stories.ts":["./src/date-field/date-field.stories.ts",7246,5318],"./divider/divider.stories":["./src/divider/divider.stories.ts",7246,3927],"./divider/divider.stories.ts":["./src/divider/divider.stories.ts",7246,3927],"./menu-item/menu-item.stories":["./src/menu-item/menu-item.stories.ts",7246,9498],"./menu-item/menu-item.stories.ts":["./src/menu-item/menu-item.stories.ts",7246,9498],"./menu/menu.stories":["./src/menu/menu.stories.ts",7246,553],"./menu/menu.stories.ts":["./src/menu/menu.stories.ts",7246,553],"./number-field/number-field.stories":["./src/number-field/number-field.stories.ts",7246,2985],"./number-field/number-field.stories.ts":["./src/number-field/number-field.stories.ts",7246,2985],"./option/option.stories":["./src/option/option.stories.ts",7246,3562],"./option/option.stories.ts":["./src/option/option.stories.ts",7246,3562],"./progress-ring/progress-ring.stories":["./src/progress-ring/progress-ring.stories.ts",7246,3419],"./progress-ring/progress-ring.stories.ts":["./src/progress-ring/progress-ring.stories.ts",7246,3419],"./progress/progress.stories":["./src/progress/progress.stories.ts",7246,3968],"./progress/progress.stories.ts":["./src/progress/progress.stories.ts",7246,3968],"./radio-group/radio-group.stories":["./src/radio-group/radio-group.stories.ts",7246,2031],"./radio-group/radio-group.stories.ts":["./src/radio-group/radio-group.stories.ts",7246,2031],"./radio/radio.stories":["./src/radio/radio.stories.ts",7246,2342],"./radio/radio.stories.ts":["./src/radio/radio.stories.ts",7246,2342],"./search/search.stories":["./src/search/search.stories.ts",7246,1127],"./search/search.stories.ts":["./src/search/search.stories.ts",7246,1127],"./select/select.stories":["./src/select/select.stories.ts",7246,5980],"./select/select.stories.ts":["./src/select/select.stories.ts",7246,5980],"./slider-label/slider-label.stories":["./src/slider-label/slider-label.stories.ts",7246,1172],"./slider-label/slider-label.stories.ts":["./src/slider-label/slider-label.stories.ts",7246,1172],"./slider/slider.stories":["./src/slider/slider.stories.ts",7246,6026],"./slider/slider.stories.ts":["./src/slider/slider.stories.ts",7246,6026],"./switch/switch.stories":["./src/switch/switch.stories.ts",7246,932],"./switch/switch.stories.ts":["./src/switch/switch.stories.ts",7246,932],"./tabs/tabs.stories":["./src/tabs/tabs.stories.ts",7246,459],"./tabs/tabs.stories.ts":["./src/tabs/tabs.stories.ts",7246,459],"./text-area/text-area.stories":["./src/text-area/text-area.stories.ts",7246,3357],"./text-area/text-area.stories.ts":["./src/text-area/text-area.stories.ts",7246,3357],"./text-field/text-field.stories":["./src/text-field/text-field.stories.ts",7246,6463],"./text-field/text-field.stories.ts":["./src/text-field/text-field.stories.ts",7246,6463],"./toolbar/toolbar.stories":["./src/toolbar/toolbar.stories.ts",7246,4463],"./toolbar/toolbar.stories.ts":["./src/toolbar/toolbar.stories.ts",7246,4463],"./tooltip/tooltip.stories":["./src/tooltip/tooltip.stories.ts",7246,4253],"./tooltip/tooltip.stories.ts":["./src/tooltip/tooltip.stories.ts",7246,4253],"./tree-item/tree-item.stories":["./src/tree-item/tree-item.stories.ts",7246,7279],"./tree-item/tree-item.stories.ts":["./src/tree-item/tree-item.stories.ts",7246,7279],"./tree-view/tree-view.stories":["./src/tree-view/tree-view.stories.ts",7246,1364],"./tree-view/tree-view.stories.ts":["./src/tree-view/tree-view.stories.ts",7246,1364]};function webpackAsyncContext(req){if(!__webpack_require__.o(map,req))return Promise.resolve().then((()=>{var e=new Error("Cannot find module '"+req+"'");throw e.code="MODULE_NOT_FOUND",e}));var ids=map[req],id=ids[0];return Promise.all(ids.slice(1).map(__webpack_require__.e)).then((()=>__webpack_require__(id)))}webpackAsyncContext.keys=()=>Object.keys(map),webpackAsyncContext.id="./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.ts)$",module.exports=webpackAsyncContext},"./storybook-config-entry.js":(__unused_webpack_module,__unused_webpack___webpack_exports__,__webpack_require__)=>{"use strict";var dist=__webpack_require__("../../node_modules/@storybook/global/dist/index.mjs"),external_STORYBOOK_MODULE_PREVIEW_API_=__webpack_require__("@storybook/preview-api");const external_STORYBOOK_MODULE_CHANNEL_POSTMESSAGE_namespaceObject=__STORYBOOK_MODULE_CHANNEL_POSTMESSAGE__,external_STORYBOOK_MODULE_CHANNEL_WEBSOCKET_namespaceObject=__STORYBOOK_MODULE_CHANNEL_WEBSOCKET__,importers=[async path=>{if(!/^\.[\\/](?:docs(?:\/(?!\.)(?:(?:(?!(?:^|\/)\.).)*?)\/|\/|$)(?!\.)(?=.)[^/]*?\.mdx)$/.exec(path))return;const pathRemainder=path.substring(7);return __webpack_require__("./docs lazy recursive ^\\.\\/.*$ include: (?:\\/docs(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.mdx)$")("./"+pathRemainder)},async path=>{if(!/^\.[\\/](?:src(?:\/(?!\.)(?:(?:(?!(?:^|\/)\.).)*?)\/|\/|$)(?!\.)(?=.)[^/]*?\.stories\.mdx)$/.exec(path))return;const pathRemainder=path.substring(6);return __webpack_require__("./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.mdx)$")("./"+pathRemainder)},async path=>{if(!/^\.[\\/](?:src(?:\/(?!\.)(?:(?:(?!(?:^|\/)\.).)*?)\/|\/|$)(?!\.)(?=.)[^/]*?\.stories\.ts)$/.exec(path))return;const pathRemainder=path.substring(6);return __webpack_require__("./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.ts)$")("./"+pathRemainder)}];const channel=(0,external_STORYBOOK_MODULE_CHANNEL_POSTMESSAGE_namespaceObject.createChannel)({page:"preview"});if(external_STORYBOOK_MODULE_PREVIEW_API_.addons.setChannel(channel),"DEVELOPMENT"===dist.global.CONFIG_TYPE){const serverChannel=(0,external_STORYBOOK_MODULE_CHANNEL_WEBSOCKET_namespaceObject.createChannel)({});external_STORYBOOK_MODULE_PREVIEW_API_.addons.setServerChannel(serverChannel),window.__STORYBOOK_SERVER_CHANNEL__=serverChannel}const preview=new external_STORYBOOK_MODULE_PREVIEW_API_.PreviewWeb;window.__STORYBOOK_PREVIEW__=preview,window.__STORYBOOK_STORY_STORE__=preview.storyStore,window.__STORYBOOK_ADDONS_CHANNEL__=channel,window.__STORYBOOK_CLIENT_API__=new external_STORYBOOK_MODULE_PREVIEW_API_.ClientApi({storyStore:preview.storyStore}),preview.initialize({importFn:async function importFn(path){for(let i=0;i<importers.length;i++){const moduleExports=await(x=()=>importers[i](path),x());if(moduleExports)return moduleExports}var x},getProjectAnnotations:()=>(0,external_STORYBOOK_MODULE_PREVIEW_API_.composeConfigs)([__webpack_require__("../../node_modules/@storybook/html/preview.js"),__webpack_require__("../../node_modules/@storybook/addon-docs/dist/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-links/dist/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/actions/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/backgrounds/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/measure/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/outline/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/highlight/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-a11y/dist/preview.mjs"),__webpack_require__("./.storybook/preview.js")])})},"@storybook/channels":module=>{"use strict";module.exports=__STORYBOOK_MODULE_CHANNELS__},"@storybook/client-logger":module=>{"use strict";module.exports=__STORYBOOK_MODULE_CLIENT_LOGGER__},"@storybook/core-events":module=>{"use strict";module.exports=__STORYBOOK_MODULE_CORE_EVENTS__},"@storybook/preview-api":module=>{"use strict";module.exports=__STORYBOOK_MODULE_PREVIEW_API__}},__webpack_require__=>{__webpack_require__.O(0,[2751],(()=>{return moduleId="./storybook-config-entry.js",__webpack_require__(__webpack_require__.s=moduleId);var moduleId}));__webpack_require__.O()}]);
-//# sourceMappingURL=main.d91cb3ec.iframe.bundle.js.map
+      :host([disabled]) .positioning-region:hover .content-region .start,
+      :host([disabled]) .positioning-region:hover .content-region .end {
+        fill: ${system_colors.H.GrayText};
+      }
+      :host([disabled]) .positioning-region:hover {
+        background: ${system_colors.H.Field};
+      }
+      .expand-collapse-glyph,
+      .start,
+      .end {
+        fill: ${system_colors.H.FieldText};
+      }
+      :host(.nested) .expand-collapse-button:hover {
+        background: ${system_colors.H.Field};
+      }
+      :host(.nested) .expand-collapse-button:hover .expand-collapse-glyph {
+        fill: ${system_colors.H.FieldText};
+      }
+    `)),expandCollapseGlyph:'\n        <svg\n            viewBox="0 0 16 16"\n            xmlns="http://www.w3.org/2000/svg"\n            class="expand-collapse-glyph"\n        >\n            <path\n                d="M5.00001 12.3263C5.00124 12.5147 5.05566 12.699 5.15699 12.8578C5.25831 13.0167 5.40243 13.1437 5.57273 13.2242C5.74304 13.3047 5.9326 13.3354 6.11959 13.3128C6.30659 13.2902 6.4834 13.2152 6.62967 13.0965L10.8988 8.83532C11.0739 8.69473 11.2153 8.51658 11.3124 8.31402C11.4096 8.11146 11.46 7.88966 11.46 7.66499C11.46 7.44033 11.4096 7.21853 11.3124 7.01597C11.2153 6.81341 11.0739 6.63526 10.8988 6.49467L6.62967 2.22347C6.48274 2.10422 6.30501 2.02912 6.11712 2.00691C5.92923 1.9847 5.73889 2.01628 5.56823 2.09799C5.39757 2.17969 5.25358 2.30817 5.153 2.46849C5.05241 2.62882 4.99936 2.8144 5.00001 3.00369V12.3263Z"\n            />\n        </svg>\n    '});var tree_view=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-view/tree-view.js"),tree_view_template=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/tree-view/tree-view.template.js"),tree_view_styles=__webpack_require__("../../node_modules/@microsoft/fast-components/dist/esm/tree-view/tree-view.styles.js");const jpTreeView=tree_view.L.compose({baseName:"tree-view",template:tree_view_template.E,styles:tree_view_styles.N}),allComponents={jpAccordion,jpAccordionItem,jpAnchoredRegion,jpAvatar,jpBadge,jpBreadcrumb,jpBreadcrumbItem,jpButton,jpCard,jpCheckbox,jpCombobox,jpDataGrid,jpDataGridCell,jpDataGridRow,jpDateField,jpDivider,jpMenu,jpMenuItem,jpNumberField,jpOption,jpProgress,jpProgressRing,jpRadio,jpRadioGroup,jpSearch,jpSelect,jpSlider,jpSliderLabel,jpSwitch,jpTab,jpTabPanel,jpTabs,jpTextArea,jpTextField,jpToolbar,jpTooltip,jpTreeItem,jpTreeView,register(container,...rest){if(container)for(const key in this)"register"!==key&&this[key]().register(container,...rest)}};var design_system=__webpack_require__("../../node_modules/@microsoft/fast-foundation/dist/esm/design-system/design-system.js");function provideJupyterDesignSystem(element){return design_system.K.getOrCreate(element).withPrefix("jp")}var parse_color=__webpack_require__("../../node_modules/@microsoft/fast-colors/dist/parse-color.js"),color_converters=__webpack_require__("../../node_modules/@microsoft/fast-colors/dist/color-converters.js"),color_hsl=__webpack_require__("../../node_modules/@microsoft/fast-colors/dist/color-hsl.js"),color=__webpack_require__("./src/color.ts");const THEME_NAME_BODY_ATTRIBUTE="data-jp-theme-name",THEME_MODE_BODY_ATTRIBUTE="data-jp-theme-light";let isThemeChangeInitialized=!1;function addJupyterLabThemeChangeListener(){isThemeChangeInitialized||(isThemeChangeInitialized=!0,function initThemeChangeListener(){const addObserver=()=>{new MutationObserver((()=>{applyCurrentTheme()})).observe(document.body,{attributes:!0,attributeFilter:[THEME_NAME_BODY_ATTRIBUTE],childList:!1,characterData:!1}),applyCurrentTheme()};"complete"===document.readyState?addObserver():window.addEventListener("load",addObserver)}())}const tokenMappings={"--jp-border-width":{converter:value=>{const parsedValue=parseInt(value,10);return isNaN(parsedValue)?null:parsedValue},token:design_tokens.H},"--jp-layout-color1":{converter:(value,isDark)=>{const parsedColor=(0,parse_color.lu)(value);if(parsedColor){const hsl=(0,color_converters.lw)(parsedColor),correctedHSL=color_hsl.H.fromObject({h:hsl.h,s:hsl.s,l:.5}),correctedRGB=(0,color_converters.hP)(correctedHSL);return color.vD.from(color.wd.create(correctedRGB.r,correctedRGB.g,correctedRGB.b))}return null},token:design_tokens.yv},"--jp-brand-color1":{converter:(value,isDark)=>{const parsedColor=(0,parse_color.lu)(value);if(parsedColor){const hsl=(0,color_converters.lw)(parsedColor),direction=isDark?1:-1,correctedHSL=color_hsl.H.fromObject({h:hsl.h,s:hsl.s,l:hsl.l+direction*design_tokens.B2.getValueFor(document.body)/94}),correctedRGB=(0,color_converters.hP)(correctedHSL);return color.vD.from(color.wd.create(correctedRGB.r,correctedRGB.g,correctedRGB.b))}return null},token:design_tokens.au},"--jp-ui-font-family":{token:design_tokens.SV},"--jp-ui-font-size1":{token:design_tokens.cS}};function applyCurrentTheme(){var _a;if(!document.body.getAttribute(THEME_NAME_BODY_ATTRIBUTE))return;const styles=getComputedStyle(document.body),isDark="false"===document.body.getAttribute(THEME_MODE_BODY_ATTRIBUTE);design_tokens.q2.setValueFor(document.body,isDark?color.he.DarkMode:color.he.LightMode);for(const jpTokenName in tokenMappings){const toolkitTokenName=tokenMappings[jpTokenName],value=styles.getPropertyValue(jpTokenName).toString();if(document.body&&""!==value){const parsedValue=(null!==(_a=toolkitTokenName.converter)&&void 0!==_a?_a:v=>v)(value.trim(),isDark);null!==parsedValue?toolkitTokenName.token.setValueFor(document.body,parsedValue):console.error(`Fail to parse value '${value}' for '${jpTokenName}' as FAST design token.`)}}}const JupyterDesignSystem=provideJupyterDesignSystem().register(allComponents);const _storybook_preview={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},options:{storySort:{order:["Docs","Library"]},isToolshown:!0,enableShortcuts:!1},docs:{theme:__webpack_require__("../../node_modules/@storybook/theming/dist/chunk-4NMOSTKD.mjs").np.dark},backgrounds:{default:"dark",values:[{name:"light",value:"#f9f9f9"},{name:"dark",value:"#252526"}]}},globalTypes:{accent:{name:"Accent",description:"Theme accent color for components",defaultValue:"#006CBE",toolbar:{icon:"paintbrush",items:[{value:"#006CBE",right:"🔵",title:"blue"},{value:"#DA1A5F",title:"pink"},{value:"#f2c812",title:"yellow"}]}}}}},"./docs lazy recursive ^\\.\\/.*$ include: (?:\\/docs(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.mdx)$":(module,__unused_webpack_exports,__webpack_require__)=>{var map={"./Introduction.mdx":["./docs/Introduction.mdx",6281],"./api-report.mdx":["./docs/api-report.mdx",3690,6978],"./changelog.mdx":["./docs/changelog.mdx",3690,221],"./contributing.mdx":["./docs/contributing.mdx",3690,8401],"./getting-started.mdx":["./docs/getting-started.mdx",3690,2549]};function webpackAsyncContext(req){if(!__webpack_require__.o(map,req))return Promise.resolve().then((()=>{var e=new Error("Cannot find module '"+req+"'");throw e.code="MODULE_NOT_FOUND",e}));var ids=map[req],id=ids[0];return Promise.all(ids.slice(1).map(__webpack_require__.e)).then((()=>__webpack_require__(id)))}webpackAsyncContext.keys=()=>Object.keys(map),webpackAsyncContext.id="./docs lazy recursive ^\\.\\/.*$ include: (?:\\/docs(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.mdx)$",module.exports=webpackAsyncContext},"./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.mdx)$":(module,__unused_webpack_exports,__webpack_require__)=>{var map={"./anchored-region/anchored-region.stories.mdx":["./src/anchored-region/anchored-region.stories.mdx",3690,5867]};function webpackAsyncContext(req){if(!__webpack_require__.o(map,req))return Promise.resolve().then((()=>{var e=new Error("Cannot find module '"+req+"'");throw e.code="MODULE_NOT_FOUND",e}));var ids=map[req],id=ids[0];return Promise.all(ids.slice(1).map(__webpack_require__.e)).then((()=>__webpack_require__(id)))}webpackAsyncContext.keys=()=>Object.keys(map),webpackAsyncContext.id="./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.mdx)$",module.exports=webpackAsyncContext},"./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.ts)$":(module,__unused_webpack_exports,__webpack_require__)=>{var map={"./accordion-item/accordion-item.stories":["./src/accordion-item/accordion-item.stories.ts",7246,7441],"./accordion-item/accordion-item.stories.ts":["./src/accordion-item/accordion-item.stories.ts",7246,7441],"./accordion/accordion.stories":["./src/accordion/accordion.stories.ts",7246,1928],"./accordion/accordion.stories.ts":["./src/accordion/accordion.stories.ts",7246,1928],"./avatar/avatar.stories":["./src/avatar/avatar.stories.ts",7246,2355],"./avatar/avatar.stories.ts":["./src/avatar/avatar.stories.ts",7246,2355],"./badge/badge.stories":["./src/badge/badge.stories.ts",7246,412],"./badge/badge.stories.ts":["./src/badge/badge.stories.ts",7246,412],"./breadcrumb-item/breadcrumb-item.stories":["./src/breadcrumb-item/breadcrumb-item.stories.ts",7246,2886],"./breadcrumb-item/breadcrumb-item.stories.ts":["./src/breadcrumb-item/breadcrumb-item.stories.ts",7246,2886],"./breadcrumb/breadcrumb.stories":["./src/breadcrumb/breadcrumb.stories.ts",7246,6842],"./breadcrumb/breadcrumb.stories.ts":["./src/breadcrumb/breadcrumb.stories.ts",7246,6842],"./button/button.stories":["./src/button/button.stories.ts",7246,911],"./button/button.stories.ts":["./src/button/button.stories.ts",7246,911],"./card/card.stories":["./src/card/card.stories.ts",7246,6279],"./card/card.stories.ts":["./src/card/card.stories.ts",7246,6279],"./checkbox/checkbox.stories":["./src/checkbox/checkbox.stories.ts",7246,3329],"./checkbox/checkbox.stories.ts":["./src/checkbox/checkbox.stories.ts",7246,3329],"./combobox/combobox.stories":["./src/combobox/combobox.stories.ts",7246,9736],"./combobox/combobox.stories.ts":["./src/combobox/combobox.stories.ts",7246,9736],"./data-grid/data-grid.stories":["./src/data-grid/data-grid.stories.ts",7246,3739],"./data-grid/data-grid.stories.ts":["./src/data-grid/data-grid.stories.ts",7246,3739],"./date-field/date-field.stories":["./src/date-field/date-field.stories.ts",7246,5318],"./date-field/date-field.stories.ts":["./src/date-field/date-field.stories.ts",7246,5318],"./divider/divider.stories":["./src/divider/divider.stories.ts",7246,3927],"./divider/divider.stories.ts":["./src/divider/divider.stories.ts",7246,3927],"./menu-item/menu-item.stories":["./src/menu-item/menu-item.stories.ts",7246,9498],"./menu-item/menu-item.stories.ts":["./src/menu-item/menu-item.stories.ts",7246,9498],"./menu/menu.stories":["./src/menu/menu.stories.ts",7246,553],"./menu/menu.stories.ts":["./src/menu/menu.stories.ts",7246,553],"./number-field/number-field.stories":["./src/number-field/number-field.stories.ts",7246,2985],"./number-field/number-field.stories.ts":["./src/number-field/number-field.stories.ts",7246,2985],"./option/option.stories":["./src/option/option.stories.ts",7246,3562],"./option/option.stories.ts":["./src/option/option.stories.ts",7246,3562],"./progress-ring/progress-ring.stories":["./src/progress-ring/progress-ring.stories.ts",7246,3419],"./progress-ring/progress-ring.stories.ts":["./src/progress-ring/progress-ring.stories.ts",7246,3419],"./progress/progress.stories":["./src/progress/progress.stories.ts",7246,3968],"./progress/progress.stories.ts":["./src/progress/progress.stories.ts",7246,3968],"./radio-group/radio-group.stories":["./src/radio-group/radio-group.stories.ts",7246,2031],"./radio-group/radio-group.stories.ts":["./src/radio-group/radio-group.stories.ts",7246,2031],"./radio/radio.stories":["./src/radio/radio.stories.ts",7246,2342],"./radio/radio.stories.ts":["./src/radio/radio.stories.ts",7246,2342],"./search/search.stories":["./src/search/search.stories.ts",7246,1127],"./search/search.stories.ts":["./src/search/search.stories.ts",7246,1127],"./select/select.stories":["./src/select/select.stories.ts",7246,5980],"./select/select.stories.ts":["./src/select/select.stories.ts",7246,5980],"./slider-label/slider-label.stories":["./src/slider-label/slider-label.stories.ts",7246,1172],"./slider-label/slider-label.stories.ts":["./src/slider-label/slider-label.stories.ts",7246,1172],"./slider/slider.stories":["./src/slider/slider.stories.ts",7246,6026],"./slider/slider.stories.ts":["./src/slider/slider.stories.ts",7246,6026],"./switch/switch.stories":["./src/switch/switch.stories.ts",7246,932],"./switch/switch.stories.ts":["./src/switch/switch.stories.ts",7246,932],"./tabs/tabs.stories":["./src/tabs/tabs.stories.ts",7246,459],"./tabs/tabs.stories.ts":["./src/tabs/tabs.stories.ts",7246,459],"./text-area/text-area.stories":["./src/text-area/text-area.stories.ts",7246,3357],"./text-area/text-area.stories.ts":["./src/text-area/text-area.stories.ts",7246,3357],"./text-field/text-field.stories":["./src/text-field/text-field.stories.ts",7246,6463],"./text-field/text-field.stories.ts":["./src/text-field/text-field.stories.ts",7246,6463],"./toolbar/toolbar.stories":["./src/toolbar/toolbar.stories.ts",7246,4463],"./toolbar/toolbar.stories.ts":["./src/toolbar/toolbar.stories.ts",7246,4463],"./tooltip/tooltip.stories":["./src/tooltip/tooltip.stories.ts",7246,4253],"./tooltip/tooltip.stories.ts":["./src/tooltip/tooltip.stories.ts",7246,4253],"./tree-item/tree-item.stories":["./src/tree-item/tree-item.stories.ts",7246,7279],"./tree-item/tree-item.stories.ts":["./src/tree-item/tree-item.stories.ts",7246,7279],"./tree-view/tree-view.stories":["./src/tree-view/tree-view.stories.ts",7246,1364],"./tree-view/tree-view.stories.ts":["./src/tree-view/tree-view.stories.ts",7246,1364]};function webpackAsyncContext(req){if(!__webpack_require__.o(map,req))return Promise.resolve().then((()=>{var e=new Error("Cannot find module '"+req+"'");throw e.code="MODULE_NOT_FOUND",e}));var ids=map[req],id=ids[0];return Promise.all(ids.slice(1).map(__webpack_require__.e)).then((()=>__webpack_require__(id)))}webpackAsyncContext.keys=()=>Object.keys(map),webpackAsyncContext.id="./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.ts)$",module.exports=webpackAsyncContext},"./storybook-config-entry.js":(__unused_webpack_module,__unused_webpack___webpack_exports__,__webpack_require__)=>{"use strict";var dist=__webpack_require__("../../node_modules/@storybook/global/dist/index.mjs"),external_STORYBOOK_MODULE_PREVIEW_API_=__webpack_require__("@storybook/preview-api");const external_STORYBOOK_MODULE_CHANNEL_POSTMESSAGE_namespaceObject=__STORYBOOK_MODULE_CHANNEL_POSTMESSAGE__,external_STORYBOOK_MODULE_CHANNEL_WEBSOCKET_namespaceObject=__STORYBOOK_MODULE_CHANNEL_WEBSOCKET__,importers=[async path=>{if(!/^\.[\\/](?:docs(?:\/(?!\.)(?:(?:(?!(?:^|\/)\.).)*?)\/|\/|$)(?!\.)(?=.)[^/]*?\.mdx)$/.exec(path))return;const pathRemainder=path.substring(7);return __webpack_require__("./docs lazy recursive ^\\.\\/.*$ include: (?:\\/docs(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.mdx)$")("./"+pathRemainder)},async path=>{if(!/^\.[\\/](?:src(?:\/(?!\.)(?:(?:(?!(?:^|\/)\.).)*?)\/|\/|$)(?!\.)(?=.)[^/]*?\.stories\.mdx)$/.exec(path))return;const pathRemainder=path.substring(6);return __webpack_require__("./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.mdx)$")("./"+pathRemainder)},async path=>{if(!/^\.[\\/](?:src(?:\/(?!\.)(?:(?:(?!(?:^|\/)\.).)*?)\/|\/|$)(?!\.)(?=.)[^/]*?\.stories\.ts)$/.exec(path))return;const pathRemainder=path.substring(6);return __webpack_require__("./src lazy recursive ^\\.\\/.*$ include: (?:\\/src(?:\\/(?%21\\.)(?:(?:(?%21(?:^%7C\\/)\\.).)*?)\\/%7C\\/%7C$)(?%21\\.)(?=.)[^/]*?\\.stories\\.ts)$")("./"+pathRemainder)}];const channel=(0,external_STORYBOOK_MODULE_CHANNEL_POSTMESSAGE_namespaceObject.createChannel)({page:"preview"});if(external_STORYBOOK_MODULE_PREVIEW_API_.addons.setChannel(channel),"DEVELOPMENT"===dist.global.CONFIG_TYPE){const serverChannel=(0,external_STORYBOOK_MODULE_CHANNEL_WEBSOCKET_namespaceObject.createChannel)({});external_STORYBOOK_MODULE_PREVIEW_API_.addons.setServerChannel(serverChannel),window.__STORYBOOK_SERVER_CHANNEL__=serverChannel}const preview=new external_STORYBOOK_MODULE_PREVIEW_API_.PreviewWeb;window.__STORYBOOK_PREVIEW__=preview,window.__STORYBOOK_STORY_STORE__=preview.storyStore,window.__STORYBOOK_ADDONS_CHANNEL__=channel,window.__STORYBOOK_CLIENT_API__=new external_STORYBOOK_MODULE_PREVIEW_API_.ClientApi({storyStore:preview.storyStore}),preview.initialize({importFn:async function importFn(path){for(let i=0;i<importers.length;i++){const moduleExports=await(x=()=>importers[i](path),x());if(moduleExports)return moduleExports}var x},getProjectAnnotations:()=>(0,external_STORYBOOK_MODULE_PREVIEW_API_.composeConfigs)([__webpack_require__("../../node_modules/@storybook/html/preview.js"),__webpack_require__("../../node_modules/@storybook/addon-docs/dist/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-links/dist/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/actions/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/backgrounds/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/measure/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/outline/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-essentials/dist/highlight/preview.mjs"),__webpack_require__("../../node_modules/@storybook/addon-a11y/dist/preview.mjs"),__webpack_require__("./.storybook/preview.js")])})},"@storybook/channels":module=>{"use strict";module.exports=__STORYBOOK_MODULE_CHANNELS__},"@storybook/client-logger":module=>{"use strict";module.exports=__STORYBOOK_MODULE_CLIENT_LOGGER__},"@storybook/core-events":module=>{"use strict";module.exports=__STORYBOOK_MODULE_CORE_EVENTS__},"@storybook/preview-api":module=>{"use strict";module.exports=__STORYBOOK_MODULE_PREVIEW_API__}},__webpack_require__=>{__webpack_require__.O(0,[2751],(()=>{return moduleId="./storybook-config-entry.js",__webpack_require__(__webpack_require__.s=moduleId);var moduleId}));__webpack_require__.O()}]);
+//# sourceMappingURL=main.098c09d9.iframe.bundle.js.map
